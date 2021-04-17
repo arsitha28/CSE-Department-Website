@@ -12,8 +12,8 @@ export default class Header extends React.Component {
                 <header id="header" className="fixed-top">
                     <div className="container d-flex align-items-center">
 
-                        <a href="index.html" className="logo mr-auto"><img src="assets/images/cvr logo1.png" alt="" className="img-fluid"/></a>
-
+                        <a href="/home" className="logo mr-auto"><img src="assets/images/cvr logo1.png" alt="" className="img-fluid"/></a>
+                        
                             <nav className="nav-menu d-none d-lg-block">
 
                                 <ul>

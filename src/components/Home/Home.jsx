@@ -16,8 +16,8 @@ export default class Header extends React.Component {
                         <div class="carousel-inner" role="listbox">
                 
                         
-                        <div class="carousel-item active" styleprop="background-image: url(assets/images/cse_block3.png)">
-                            <div class="carousel-container">
+                        <div class="carousel-item active">
+                            <div class="carousel-container" styleprop="background-image: url(assets/images/cse_block3.png)">
                             <div class="container">
                                 <h2 class="animated fadeInDown">CVR College of Engineering</h2>
                             
@@ -27,8 +27,8 @@ export default class Header extends React.Component {
                         </div>
                 
                         
-                        <div class="carousel-item" styleprop="background-image: url(assets/images/apple_lab1.jpg.png)">
-                            <div class="carousel-container">
+                        <div class="carousel-item">
+                            <div class="carousel-container" styleprop="background-image: url(assets/images/apple_lab.png)">
                             <div class="container">
                                 <h2 class="animated fadeInDown">Apple Lab</h2>
                             
