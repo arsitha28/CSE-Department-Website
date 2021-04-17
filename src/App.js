@@ -11,6 +11,7 @@ import FirstYear from "./components/StudentCorner/FirstYear";
 import SecondYear from "./components/StudentCorner/SecondYear";
 import ThirdYear from "./components/StudentCorner/ThirdYear";
 import FourthYear from "./components/StudentCorner/FourthYear";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
           <Route exact path="/secondyear" component={SecondYear}/>
           <Route exact path="/thirdyear" component={ThirdYear}/>
           <Route exact path="/fourthyear" component={FourthYear}/>
-          
+          <Route exact path="/footer" component={Footer}/>
 
         </Switch>
       </div>
