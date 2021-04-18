@@ -61,6 +61,11 @@ export default class Header extends React.Component {
                     </div>
                     </section>
 
+                    <div class="alert alert-info">
+                        <marquee>
+                            <a href="/updates" class="alert-link"><strong>COVID 19 </strong> Precautions taken at our campus</a>
+                        </marquee>
+                    </div>
 
                     <section class="page-section clearfix">
                     <div class="container">
@@ -89,9 +94,9 @@ export default class Header extends React.Component {
                     </div>
                     
                     <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                        <li data-target="#demo" data-slide-to="2"></li>
+                        <li class="bg-dark" data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li class="bg-dark" data-target="#demo" data-slide-to="1"></li>
+                        <li class="bg-dark" data-target="#demo" data-slide-to="2"></li>
                     </ul>
                     
                     

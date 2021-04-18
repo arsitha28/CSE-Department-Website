@@ -39,11 +39,11 @@ export default class Footer extends React.Component {
                   </div>
                   <div className="col-md-3 col-sm-6">
                     
-                    <div className="footer-pad" styleprop="margin-left: -100px;">
-                      <div id="map-container-google-1" className="embed-responsive embed-responsive-18by9" styleprop="height: 200px; width: 350px">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.460853988698!2d78.59506221471405!3d17.196418412811365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba659868b4727%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1614071871344!5m2!1sen!2sin" width="400" height="300" styleprop="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                      </div>
+                    <div className="text-center">
+                        <br/>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.460959492319!2d78.59506221482327!3d17.19641328819331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba659868b4727%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1617464087257!5m2!1sen!2sin" width="300" height="150" styleprop="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
+            
                   </div>
                   <div className="col-md-3" styleprop="margin-left: 0px;">
                     <h4 styleprop="color:#310892;">Social Media</h4>

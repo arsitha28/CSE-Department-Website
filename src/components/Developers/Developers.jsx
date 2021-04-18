@@ -7,11 +7,7 @@ export default class Developers extends React.Component {
     render() {
         return (
             <div>
-               <br/>
-               <br/> 
-               <br/>
-               
-               
+              
                 <section id="team" class="team">
                     <div class="container">
 

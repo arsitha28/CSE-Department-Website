@@ -19,26 +19,6 @@ body {
   background: #fff;
 }
 
-#footer .footer-top .footer-contact {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-contact h4 {
-  font-size: 22px;
-  margin: 0 0 30px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
-}
-
-#footer .footer-top .footer-contact p {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
-  color: #777777;
-}
-
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
@@ -58,8 +38,8 @@ body {
 }
 
 #footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #ea6981;
+  padding-right: px;
+  color: #1e5f74;
   font-size: 18px;
   line-height: 1;
 }
@@ -83,7 +63,7 @@ body {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #e43c5c;
+  color: #1e5f74;
 }
 
 #footer .footer-newsletter {
@@ -101,7 +81,7 @@ body {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #e43c5c;
+  background: #1e5f74;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -114,7 +94,7 @@ body {
 }
 
 #footer .social-links a:hover {
-  background: #d01d3f;
+  background: #1e5f74;
   color: #fff;
   text-decoration: none;
 }
@@ -124,7 +104,7 @@ footer {
   background: -webkit-linear-gradient(59deg, #fcdab7, #1e5f74);
   background: linear-gradient(59deg, #fcdab7, #1e5f74);
   color: white;
-  margin-top: 0px;
+  margin-top: 40px;
 }
 
 footer a {
@@ -134,7 +114,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #fcdab7;
+  color: #1e5f74;
   text-decoration: none;
 }
 

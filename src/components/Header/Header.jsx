@@ -28,7 +28,7 @@ export default class Header extends React.Component {
                                         
                                     </ul>
                                     </li>
-                                    <li className="drop-down"><a href="" styleprop="text-decoration: none;">Research</a>
+                                    <li className="drop-down"><a href="#" styleprop="text-decoration: none;">Research</a>
                                     <ul>
                                         <li><a href="#" styleprop="text-decoration: none;">2021</a></li>
                                         <li><a href="#" styleprop="text-decoration: none;">2020</a></li>
@@ -44,18 +44,18 @@ export default class Header extends React.Component {
                                         
                                     </ul>
                                     </li>
-                                    <li className="drop-down"><a href="" styleprop="text-decoration: none;">Student Corner</a>
+                                    <li className="drop-down"><a href="#" styleprop="text-decoration: none;">Student Corner</a>
                                     <ul>
-                                        <li><a href="#" styleprop="text-decoration: none;">IV year</a></li>
-                                        <li><a href="#" styleprop="text-decoration: none;">III year</a></li>
-                                        <li><a href="#" styleprop="text-decoration: none;">II year</a></li>
-                                        <li><a href="#" styleprop="text-decoration: none;">I year</a></li>
-                                        <li><a href="#" styleprop="text-decoration: none;">Complaint Box</a></li>
+                                        <li><a href="/fourthyear" styleprop="text-decoration: none;">IV year</a></li>
+                                        <li><a href="/thirdyear" styleprop="text-decoration: none;">III year</a></li>
+                                        <li><a href="/secondyear" styleprop="text-decoration: none;">II year</a></li>
+                                        <li><a href="/firstyear" styleprop="text-decoration: none;">I year</a></li>
+                                        <li><a href="/complaint" styleprop="text-decoration: none;">Complaint Box</a></li>
                                         
                                     </ul>
                                     </li>
-                                    <li><a href="blog.html" styleprop="text-decoration: none;">Alumni</a></li>
-                                    <li><a href="blog.html" styleprop="text-decoration: none;">Developers</a></li>
+                                    <li><a href="#" styleprop="text-decoration: none;">Alumni</a></li>
+                                    <li><a href="/developers" styleprop="text-decoration: none;">Developers</a></li>
                                 
                                 </ul>
                             

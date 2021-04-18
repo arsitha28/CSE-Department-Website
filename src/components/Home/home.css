@@ -859,7 +859,7 @@ body .carousel-indicators {
 }
 body .carousel-control-prev-icon,
 body .carousel-control-next-icon {
-  background-color: rgb(8, 14, 49);
+  background-color: #1e5f74;
 }
 
 body .no-padding {
@@ -949,4 +949,12 @@ small {
   font-size: 31px;
   padding: 20px 0 0;
   text-transform: uppercase;
+}
+
+.alert {
+  background-color: #810000;
+  opacity: 0.9;
+}
+.alert .alert-link {
+  color: #eee;
 }
