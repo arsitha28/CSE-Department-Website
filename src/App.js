@@ -14,6 +14,7 @@ import FourthYear from "./components/StudentCorner/FourthYear";
 import Footer from "./components/Footer";
 import AdminHeader from "./components/Admin/AdminHeader";
 import Login from "./components/Admin/Login/Login";
+import Labs from "./components/Labs";
 
 
 const DefaultContainer = () => (
@@ -23,6 +24,7 @@ const DefaultContainer = () => (
         <Route exact path="/" component={Home}/>
         <Route exact path="/header" component={Header}/>
         <Route exact path="/faculty" component={Faculty}/>
+        <Route exact path="/labs" component={Labs}/>
         <Route exact path="/developers" component={Developers}/>
         <Route exact path="/complaint" component={ComplaintBox}/>
         <Route exact path="/firstyear" component={FirstYear}/>
