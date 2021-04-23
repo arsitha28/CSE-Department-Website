@@ -32,16 +32,16 @@ export default class Labs extends React.Component {
       
     </p> </Fade>
    <Fade left> <ul>
-      <li><i class="ri-check-double-line"></i> program-1</li>
-      <li><i class="ri-check-double-line"></i> program-2</li>
-      <li><i class="ri-check-double-line"></i> program-3</li>
-      <li><i class="ri-check-double-line"></i> program-4</li>
-      <li><i class="ri-check-double-line"></i> program-5</li>
-      <li><i class="ri-check-double-line"></i> program-6</li>
+      <li><i class="ri-check-double-line"></i> program-1 Ullamco laboris nisi ut aliquip ex e</li>
+      <li><i class="ri-check-double-line"></i> program-2 Ullamco laboris nisi ut aliquip exUllamco laboris nisi ut aliquip ex e e</li>
+      <li><i class="ri-check-double-line"></i> program-3 Ullamco laboris nisi ut aliquip ex e</li>
+      <li><i class="ri-check-double-line"></i> program-4 Ullamco laboris nisi ut aliquip ex e</li>
+      <li><i class="ri-check-double-line"></i> program-5 Ullamco laboris nisi ut aliquip ex e</li>
+      <li><i class="ri-check-double-line"></i> program-6 Ullamco laboris nisi ut aliquip ex e</li>
 
     </ul> </Fade>
     <Fade left> <p>
-      Lab capacity , Specifications of the lab
+      Lab capacity ,Specifications of the lab
       
     </p> </Fade>
   </div>
@@ -60,10 +60,10 @@ export default class Labs extends React.Component {
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua.
     </p> </Fade>
-   <Fade left> <ul>
-      <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-      <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-      <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+   <Fade left> <ul left >
+      <li left > llllUllamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+      <li left > Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+      <li left > Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
     </ul> </Fade>
     <Fade left> <p>
       Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate

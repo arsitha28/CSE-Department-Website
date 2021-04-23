@@ -23,14 +23,14 @@ export default class Header extends React.Component {
                                     <li className="drop-down"><a href="" styleprop="text-decoration: none;">Infrastructure</a>
                                     <ul>
                                         <li><a href="/labs" styleprop="text-decoration: none;">Labs</a></li>
-                                        <li><a href="#" styleprop="text-decoration: none;">Seminar Hall</a></li>
-                                        <li><a href="#" styleprop="text-decoration: none;">className rooms &amp; Library</a></li>
+                                        <li><a href="/seminar" styleprop="text-decoration: none;">Seminar Hall</a></li>
+                                        <li><a href="/library" styleprop="text-decoration: none;">className rooms &amp; Library</a></li>
                                         
                                     </ul>
                                     </li>
                                     <li className="drop-down"><a href="#" styleprop="text-decoration: none;">Research</a>
                                     <ul>
-                                        <li><a href="#" styleprop="text-decoration: none;">2021</a></li>
+                                        <li><a href="/research" styleprop="text-decoration: none;">2021</a></li>
                                         <li><a href="#" styleprop="text-decoration: none;">2020</a></li>
                                         <li><a href="#" styleprop="text-decoration: none;">2019</a></li>
                                         
@@ -38,7 +38,7 @@ export default class Header extends React.Component {
                                     </li>
                                     <li className="drop-down"><a href="" styleprop="text-decoration: none;">Workshops &amp; FDP's</a>
                                     <ul>
-                                        <li><a href="#" styleprop="text-decoration: none;">2021</a></li>
+                                        <li><a href="/workshops" styleprop="text-decoration: none;">2021</a></li>
                                         <li><a href="#" styleprop="text-decoration: none;">2020</a></li>
                                         <li><a href="#" styleprop="text-decoration: none;">2019</a></li>
                                         
@@ -51,13 +51,16 @@ export default class Header extends React.Component {
                                         <li><a href="/secondyear" styleprop="text-decoration: none;">II year</a></li>
                                         <li><a href="/firstyear" styleprop="text-decoration: none;">I year</a></li>
                                         <li><a href="/complaint" styleprop="text-decoration: none;">Complaint Box</a></li>
+                                        <li><a href="/events" styleprop="text-decoration: none;">Events</a></li>
                                         
                                     </ul>
                                     </li>
-                                    <li><a href="#" styleprop="text-decoration: none;">Alumni</a></li>
+                                    <li><a href="/alumni" styleprop="text-decoration: none;">Alumni</a></li>
                                     <li><a href="/developers" styleprop="text-decoration: none;">Developers</a></li>
                                 
                                 </ul>
+
+                                
                             
                             </nav>
                                 
