@@ -22,7 +22,7 @@ export default class Header extends React.Component {
                                     
                                     <li className="drop-down"><a href="" styleprop="text-decoration: none;">Infrastructure</a>
                                     <ul>
-                                        <li><a href="/labs" styleprop="text-decoration: none;">Labs</a></li>
+                                        <li><a href="/lab" styleprop="text-decoration: none;">Labs</a></li>
                                         <li><a href="/seminar" styleprop="text-decoration: none;">Seminar Hall</a></li>
                                         <li><a href="/library" styleprop="text-decoration: none;">className rooms &amp; Library</a></li>
                                         

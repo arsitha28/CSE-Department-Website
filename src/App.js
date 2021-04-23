@@ -14,13 +14,15 @@ import FourthYear from "./components/StudentCorner/FourthYear";
 import Footer from "./components/Footer";
 import AdminHeader from "./components/Admin/AdminHeader";
 import Login from "./components/Admin/Login/Login";
-import Labs from "./components/Labs";
+
 import Seminar from "./components/Seminar";
 import Library from "./components/Library";
 import Research from "./components/Research";
 import Workshops from "./components/Workshops";
 import Alumni from "./components/Alumni";
 import Events from "./components/Events";
+import Lab from "./components/Lab";
+
 
 
 const DefaultContainer = () => (
@@ -31,7 +33,7 @@ const DefaultContainer = () => (
         <Route exact path="/header" component={Header}/>
         <Route exact path="/seminar" component={Seminar}/>
         <Route exact path="/faculty" component={Faculty}/>
-        <Route exact path="/labs" component={Labs}/>
+        <Route exact path="/lab" component={Lab}/>
         <Route exact path="/developers" component={Developers}/>
         <Route exact path="/complaint" component={ComplaintBox}/>
         <Route exact path="/firstyear" component={FirstYear}/>
@@ -44,6 +46,7 @@ const DefaultContainer = () => (
         <Route exact path="/research" component={Research}/>
         <Route exact path="/alumni" component={Alumni}/>
         <Route exact path="/events" component={Events}/>
+
         
     <Footer />
   </React.Fragment>
