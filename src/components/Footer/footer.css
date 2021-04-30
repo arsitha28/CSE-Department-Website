@@ -5,8 +5,8 @@ body {
 
 footer {
   background: #16222a;
-  background: -webkit-linear-gradient(59deg, #fcdab7, #1e5f74);
-  background: linear-gradient(59deg, #fcdab7, #1e5f74);
+  background: -webkit-linear-gradient(59deg, #ffffff, #1e5f74);
+  background: linear-gradient(59deg, #ffffff, #1e5f74);
   color: white;
   margin-top: 40px;
 }
