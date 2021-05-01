@@ -7,12 +7,10 @@ export default class AdminResearch extends React.Component {
     render() {
         return (
             <div>
-                 <div class="row">
-                    <div class="col-sm-8"></div>
-                    <div class="col-sm-4 col-sm-8 ">
-                        <button type="button button-responsive" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add New</button>
-                    </div>
-                </div>
+                
+              <div class="col-sm-4 col-sm-8 ">
+              <a class="btn btn-large btn-primary" href="#secA"><i class="fa fa-plus"></i> ADD NEW</a>
+              </div>
 
 
 
@@ -125,6 +123,33 @@ export default class AdminResearch extends React.Component {
   
 </table>
      
+
+
+<section id="secA">
+    
+
+
+             
+    <form class="form-inline">
+    
+    <label for="Faculty Name" class="mr-sm-2">Faculty Name:</label>
+      <input type="text" class="form-control mb-2 mr-sm-5" placeholder="Enter Faculty Name" id="Faculty Name"/>
+    
+      <label for="Paper Published" class="mr-sm-2">Paper Published:</label>
+      <input type="text" class="form-control mb-2 mr-sm-5" placeholder="Enter Paper Published" id="Paper Published"/>
+    
+      <label for="Domain" class="mr-sm-2">Domain:</label>
+      <input type="text" class="form-control mb-2 mr-sm-5" placeholder="Enter Domain" id="Domain"/>
+    
+      <label for="Publisher" class="mr-sm-2">Publisher:</label>
+      <input type="text" class="form-control mb-2 mr-sm-5" placeholder="Enter Publisher" id="Publisher"/>
+      <button type="button" class="btn btn-outline-success">ADD</button>
+    
+      </form>
+      
+      </section>
+
+
 
 
                 
