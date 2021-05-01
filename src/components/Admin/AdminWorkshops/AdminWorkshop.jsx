@@ -143,7 +143,7 @@ export default class AdminWorkshop extends React.Component {
 
   <label for="Duration" class="mr-sm-2">Duration:</label>
   <input type="text" class="form-control mb-2 mr-sm-5" placeholder="Enter Duration" id="Duration"/>
-  <button type="button" class="btn btn-outline-success">ADD</button>
+  <button type="button" class="btn btn-outline-success">ADD NEW ENTRY</button>
 
   </form>
   
