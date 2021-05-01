@@ -22,6 +22,13 @@ import Workshops from "./components/Workshops";
 import Alumni from "./components/Alumni";
 import Events from "./components/Events";
 import Lab from "./components/Lab";
+import AdminResearch from "./components/Admin/AdminResearch";
+import AdminComplaintBox from "./components/Admin/AdminComplaintBox/AdminComplaintBox";
+import AdminStudentCorner from "./components/Admin/AdminStudentCorner";
+import AdminWorkshop from "./components/Admin/AdminWorkshops";
+import AlumniForm from "./components/Admin/AlumniForm";
+import Announcements from "./components/Admin/Announcements";
+import Reports from "./components/Admin/Report/Report";
 
 
 
@@ -58,6 +65,13 @@ const AdminContainer = () => (
 
     <Route exact path="/admin/adminheader" component={AdminHeader}/>
     <Route path="/admin/login" exact component={Login} />
+    <Route path="/admin/AdminComplaintBox" exact component={AdminComplaintBox} />
+    <Route path="/admin/AdminResearch" exact component={AdminResearch} />
+    <Route path="/admin/AdminStudentCorner" exact component={AdminStudentCorner} />
+    <Route path="/admin/AdminWorkshops" exact component={AdminWorkshop} />
+    <Route path="/admin/AlumniForm" exact component={AlumniForm} />
+    <Route path="/admin/Announcements" exact component={Announcements} />
+    <Route path="/admin/Report" exact component={Reports} />
 
   </React.Fragment>
 )
