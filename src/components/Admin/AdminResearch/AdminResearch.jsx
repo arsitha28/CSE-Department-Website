@@ -133,16 +133,16 @@ export default class AdminResearch extends React.Component {
     <form class="form-inline">
     
     <label for="Faculty Name" class="mr-sm-2">Faculty Name:</label>
-      <input type="text" class="form-control mb-2 mr-sm-5" placeholder="Enter Faculty Name" id="Faculty Name"/>
+      <input type="text" class="form-control mb-2 mr-sm-4" placeholder="Enter Faculty Name" id="Faculty Name"/>
     
       <label for="Paper Published" class="mr-sm-2">Paper Published:</label>
-      <input type="text" class="form-control mb-2 mr-sm-5" placeholder="Enter Paper Published" id="Paper Published"/>
+      <input type="text" class="form-control mb-2 mr-sm-4" placeholder="Enter Paper Published" id="Paper Published"/>
     
       <label for="Domain" class="mr-sm-2">Domain:</label>
-      <input type="text" class="form-control mb-2 mr-sm-5" placeholder="Enter Domain" id="Domain"/>
+      <input type="text" class="form-control mb-2 mr-sm-4" placeholder="Enter Domain" id="Domain"/>
     
       <label for="Publisher" class="mr-sm-2">Publisher:</label>
-      <input type="text" class="form-control mb-2 mr-sm-5" placeholder="Enter Publisher" id="Publisher"/>
+      <input type="text" class="form-control mb-2 mr-sm-4" placeholder="Enter Publisher" id="Publisher"/>
       <button type="button" class="btn btn-outline-success">ADD NEW ENTRY</button>
     
       </form>
