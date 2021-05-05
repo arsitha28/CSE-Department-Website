@@ -1,85 +1,51 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './research.css';
 
 
 export default class Research extends React.Component {
+  
+  state = {
+    itemList: [
+   
+    ]
+  };
+  
+  classAPI(){
+    fetch("http://localhost:9000/mainWebsiteAPI/research")
+    .then(res => res.json())
+    .then(res=>this.setState({itemList:res}));
+  }
+
+  componentWillMount(){
+    this.classAPI();
+  }
+  
+  renderItems() {
+    return this.state.itemList.map(item => (
+     
+        <tr><td width="20%">{item.faculty_name}</td>
+       <td width="20%">{item.paper}</td>
+        <td width="20%">{item.domain}</td>
+        <td width="20%">{item.publisher}</td></tr>
+      
+    ));
+  }
+
+
     render() {
         return (
-            <div>
-                <br/>
-                <br/>
-                 <table class="table table-responsive table-bordered table-striped table-hover  table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
-  <tr>
-      <th>Serial No</th>
-      <th>Faculty Name</th>
-      <th>Papers Published</th>
-      <th>Domain</th>
-      <th>Publisher</th>
-  </tr>
-  <tr>
-      <td>1</td>
-      <td>Lallu</td>
-      <td>IOT based application to send the messages immediately as soon as they want to send any information to anyone,anytime. when ever we want</td>
-      <td>
-        Iot
-      </td>
-      <td>Mypublisher.com</td>
-  </tr>
+          
+          <div class="container">
+            <table class="table table-hover">
+            <tr><td width="20%"><b>Faculty Name</b></td>
+            <td width="20%"><b>Title of paper</b></td>
+            <td width="20%"><b>Domain </b></td>
+            <td width="20%"><b>publisher</b></td></tr>
+            
+            {this.renderItems()}
+            </table></div>
 
-  <tr>
-      <td>2</td>
-      <td>Lallu</td>
-      <td>IOT based application to send the messages immediately as soon as they want to send any information to anyone,anytime. when ever we want</td>
-      <td>
-        Iot
-      </td>
-      <td>Mypublisher.com</td>
-  </tr>
-
-  <tr>
-      <td>3</td>
-      <td>Lallu</td>
-      <td>IOT based application to send the messages immediately as soon as they want to send any information to anyone,anytime. when ever we want</td>
-      <td>
-        Iot
-      </td>
-      <td>Mypublisher.com</td>
-  </tr>
-
-  <tr>
-      <td>4</td>
-      <td>Lallu</td>
-      <td>IOT based application to send the messages immediately as soon as they want to send any information to anyone,anytime. when ever we want</td>
-      <td>
-        Iot
-      </td>
-      <td>Mypublisher.com</td>
-  </tr>
-
-  <tr>
-      <td>5</td>
-      <td>Lallu</td>
-      <td>IOT based application to send the messages immediately as soon as they want to send any information to anyone,anytime. when ever we want</td>
-      <td>
-        Iot
-      </td>
-      <td>Mypublisher.com</td>
-  </tr>
-
-  <tr>
-      <td>6</td>
-      <td>Lallu</td>
-      <td>IOT based application to send the messages immediately as soon as they want to send any information to anyone,anytime. when ever we want</td>
-      <td>
-        Iot
-      </td>
-      <td>Mypublisher.com</td>
-  </tr>
-  
-</table>
-                
-            </div>
         )
     }
 }

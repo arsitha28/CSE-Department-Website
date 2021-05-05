@@ -34,7 +34,7 @@ import Reports from "./components/Admin/Report/Report";
 
 const DefaultContainer = () => (
   <React.Fragment>
-    <Header />
+   
     
         <Route exact path="/" component={Home}/>
         <Route exact path="/header" component={Header}/>
