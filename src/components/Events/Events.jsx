@@ -7,11 +7,11 @@ export default class Events extends React.Component {
     render() {
         return (
             <div>
-                  <section id="hero" class="d-flex align-items-center">
+  <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Welcome to <span>CVR Events</span></h1>
+          <h1>Welcome to <span>CVR CSE Events</span></h1>
           <h2>A great place where students show their creativity !</h2>
 
         

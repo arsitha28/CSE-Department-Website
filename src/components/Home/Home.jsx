@@ -5,6 +5,32 @@ import * as ReactBootStrap from "react-bootstrap";
 import {Figure} from 'react-bootstrap';
 
 export default class Header extends React.Component {
+    state = {
+        itemList: [
+       
+        ]
+      };
+      
+      classAPI(){
+        fetch("http://localhost:9000/mainWebsiteAPI/announcement")
+        .then(res => res.json())
+        .then(res=>this.setState({itemList:res}));
+      }
+    
+      componentWillMount(){
+        this.classAPI();
+      }
+      renderItems() {
+        return this.state.itemList.map(item => (
+            <table  class="table table-hover">
+            <tr><td width="20%">{item.announcementValue}</td>
+            
+         </tr>
+         </table>
+        ));
+      }
+    
+        
     render() {
         return (
             <div>
@@ -67,6 +93,9 @@ export default class Header extends React.Component {
                         </marquee>
                     </div>
 
+                    <h1> Announcements</h1>
+                        {this.renderItems()}
+
                     <section class="page-section clearfix">
                     <div class="container">
                         <div class="intro">
@@ -85,6 +114,8 @@ export default class Header extends React.Component {
                         </div>
                     </div>
                     </section>
+
+
 
                     <div id="demo" class="carousel slide" data-ride="carousel">
 
