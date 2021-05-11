@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import Faculty from "./components/Faculty";
 import Developers from "./components/Developers";
 import ComplaintBox from "./components/ComplaintBox";
 import Certifications from "./components/Certifications";
@@ -14,7 +13,6 @@ import FourthYear from "./components/StudentCorner/FourthYear";
 import Footer from "./components/Footer";
 import AdminHeader from "./components/Admin/AdminHeader";
 import Login from "./components/Admin/Login/Login";
-
 import Seminar from "./components/Seminar";
 import Library from "./components/Library";
 import Research from "./components/Research";
@@ -29,7 +27,9 @@ import AdminWorkshop from "./components/Admin/AdminWorkshops";
 import AlumniForm from "./components/Admin/AlumniForm";
 import Announcements from "./components/Admin/Announcements";
 import Reports from "./components/Admin/Report/Report";
-
+import Year1 from  "./components/Faculty/Year1";
+import Year2 from  "./components/Faculty/Year2";
+import Year3 from  "./components/Faculty/Year3";
 
 
 const DefaultContainer = () => (
@@ -39,7 +39,9 @@ const DefaultContainer = () => (
         <Route exact path="/" component={Home}/>
         <Route exact path="/header" component={Header}/>
         <Route exact path="/seminar" component={Seminar}/>
-        <Route exact path="/faculty" component={Faculty}/>
+        <Route exact path="/year1" component={Year1}/>
+        <Route exact path="/year2" component={Year2}/>
+        <Route exact path="/year3" component={Year3}/>
         <Route exact path="/lab" component={Lab}/>
         <Route exact path="/developers" component={Developers}/>
         <Route exact path="/complaint" component={ComplaintBox}/>

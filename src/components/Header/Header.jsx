@@ -17,8 +17,16 @@ export default class Header extends React.Component {
                             <nav className="nav-menu d-none d-lg-block">
 
                                 <ul>
-                                    <li className="active"><a href="index.html" styleprop="text-decoration: none;">Home</a></li>
-                                    <li><a href="/faculty" styleprop="text-decoration: none;">Faculty</a></li>
+                                    <li className="active"><a href="/home" styleprop="text-decoration: none;">Home</a></li>
+                                    <li className="drop-down"><a href="/faculty" styleprop="text-decoration: none;">Faculty</a>
+                                    <ul>
+                                        <li><a href="/year1" styleprop="text-decoration: none;">2020</a></li>
+                                        <li><a href="/year2" styleprop="text-decoration: none;">2019</a></li>
+                                        <li><a href="/year3" styleprop="text-decoration: none;">2018</a></li>
+                                        
+                                        
+                                    </ul>
+                                    </li>
                                     
                                     <li className="drop-down"><a href="" styleprop="text-decoration: none;">Infrastructure</a>
                                     <ul>

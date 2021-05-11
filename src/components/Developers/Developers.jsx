@@ -21,11 +21,11 @@ export default class Developers extends React.Component {
 
                             <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                                 <div class="member">
-                                    <img src="assets/images/team/team-1.jpg" class="img-fluid" alt=""/>
+                                    <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                     <div class="member-info">
                                         <div class="member-info-content">
-                                        <h4>Suhail Afroz</h4>
-                                        <span>Mentor</span>
+                                        <h4>Mentor Name</h4>
+                                        <span>Role</span>
                                         </div>
                                         
                                     </div>
@@ -49,11 +49,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                             <div class="member">
-                                <img src="assets/images/team/team-1.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                    <h4>Walter White</h4>
-                                    <span>Chief Executive Officer</span>
+                                    <h4>Developer</h4>
+                                    <span>Role</span>
                                     </div>
                                     
                                 </div>
@@ -62,11 +62,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                             <div class="member">
-                                <img src="assets/images/team/team-2.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Product Manager</span>
+                                    <h4>Developer</h4>
+                                    <span>Role</span>
                                     </div>
                                     
                                 </div>
@@ -75,11 +75,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                             <div class="member">
-                                <img src="assets/images/team/team-3.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                    <h4>William Anderson</h4>
-                                    <span>CTO</span>
+                                    <h4>Developer</h4>
+                                    <span>Role</span>
                                     </div>
                                     
                                 </div>
@@ -88,11 +88,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                             <div class="member">
-                                <img src="assets/images/team/team-4.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                    <h4>Amanda Jepson</h4>
-                                    <span>Accountant</span>
+                                    <h4>Developer</h4>
+                                    <span>Role</span>
                                     </div>
                                     
                                 </div>
@@ -105,11 +105,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                             <div class="member">
-                                <img src="assets/images/team/team-1.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                    <h4>Walter White</h4>
-                                    <span>Chief Executive Officer</span>
+                                    <h4>Developer</h4>
+                                    <span>Role</span>
                                     </div>
                                     
                                 </div>
@@ -118,11 +118,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                             <div class="member">
-                                <img src="assets/images/team/team-2.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Product Manager</span>
+                                    <h4>Developer</h4>
+                                    <span>Role</span>
                                     </div>
                                     
                                 </div>
@@ -131,11 +131,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                             <div class="member">
-                                <img src="assets/images/team/team-3.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                    <h4>William Anderson</h4>
-                                    <span>CTO</span>
+                                    <h4>Developer</h4>
+                                    <span>Role</span>
                                     </div>
                                     
                                 </div>
@@ -144,11 +144,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                             <div class="member">
-                                <img src="assets/images/team/team-4.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                    <h4>Amanda Jepson</h4>
-                                    <span>Accountant</span>
+                                    <h4>Developer</h4>
+                                    <span>Role</span>
                                     </div>
                                     
                                 </div>
@@ -162,11 +162,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                             <div class="member">
-                            <img src="assets/images/team/team-1.jpg" class="img-fluid" alt=""/>
+                            <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                             <div class="member-info">
                                 <div class="member-info-content">
-                                <h4>Walter White</h4>
-                                <span>Chief Executive Officer</span>
+                                <h4>Developer</h4>
+                                <span>Role</span>
                                 </div>
                                 
                             </div>
@@ -175,11 +175,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                             <div class="member">
-                                <img src="assets/images/team/team-2.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Product Manager</span>
+                                    <h4>Developer</h4>
+                                    <span>Role</span>
                                     </div>
                                     
                                 </div>
@@ -188,11 +188,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                             <div class="member">
-                                <img src="assets/images/team/team-3.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                    <h4>William Anderson</h4>
-                                    <span>CTO</span>
+                                    <h4>Developer</h4>
+                                    <span>Role</span>
                                     </div>
                                     
                                 </div>
@@ -201,11 +201,11 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                             <div class="member">
-                                <img src="assets/images/team/team-4.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                    <h4>Amanda Jepson</h4>
-                                    <span>Accountant</span>
+                                    <h4>Developer</h4>
+                                    <span>Role</span>
                                     </div>
                                 </div>
                             </div>

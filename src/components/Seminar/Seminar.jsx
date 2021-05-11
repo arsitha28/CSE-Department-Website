@@ -30,7 +30,15 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/testimonials-1.jpg"/> 
+    <img src="assets/images/model-img3.jpg"/> 
+
+</div>
+</div>
+
+<div class="col-lg-3 col-md-4">
+<div class="gallery-item">
+  
+    <img src="assets/images/model-img3.jpg"/>  
   
 </div>
 </div>
@@ -38,7 +46,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/testimonials-2.jpg"/>  
+    <img src="assets/images/model-img3.jpg"/>  
   
 </div>
 </div>
@@ -46,15 +54,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/testimonials-3.jpg"/>  
-  
-</div>
-</div>
-
-<div class="col-lg-3 col-md-4">
-<div class="gallery-item">
-  
-    <img src="assets/images/testimonials-4.jpg"/>  
+    <img src="assets/images/model-img3.jpg"/>  
   
 </div>
 </div>
@@ -64,7 +64,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/testimonials-5.jpg"/>  
+    <img src="assets/images/model-img3.jpg"/>  
   
 </div>
 </div>
@@ -72,7 +72,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/testimonials-6.jpg"/>  
+    <img src="assets/images/model-img3.jpg"/>  
   
 </div>
 </div>
@@ -80,7 +80,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/testimonials-3.jpg"/> 
+    <img src="assets/images/model-img3.jpg"/> 
   
 </div>
 </div>
@@ -88,30 +88,14 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/testimonials-3.jpg"/> 
+    <img src="assets/images/model-img3.jpg"/> 
   
 </div>
 </div>
 
 </div>
 
-</div>cd 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
 </section>
                 

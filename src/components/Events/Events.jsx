@@ -24,38 +24,6 @@ export default class Events extends React.Component {
     </div>
   </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <section id="gallery" class="gallery">
 
 
@@ -74,7 +42,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/testimonials-1.jpg"/> 
+                <img src="assets/images/model-img3.jpg"/> 
               
             </div>
           </div>
@@ -82,7 +50,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/testimonials-2.jpg"/>  
+                <img src="assets/images/model-img3.jpg"/>  
               
             </div>
           </div>
@@ -90,7 +58,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/testimonials-3.jpg"/>  
+                <img src="assets/images/model-img3.jpg"/>  
               
             </div>
           </div>
@@ -98,7 +66,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/testimonials-4.jpg"/>  
+                <img src="assets/images/model-img3.jpg"/>  
               
             </div>
           </div>
@@ -108,7 +76,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/testimonials-5.jpg"/>  
+                <img src="assets/images/model-img3.jpg"/>  
               
             </div>
           </div>
@@ -116,7 +84,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/testimonials-6.jpg"/>  
+                <img src="assets/images/model-img3.jpg"/>  
               
             </div>
           </div>
@@ -124,7 +92,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/testimonials-3.jpg"/> 
+                <img src="assets/images/model-img3.jpg"/> 
               
             </div>
           </div>
@@ -132,7 +100,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/testimonials-3.jpg"/> 
+                <img src="assets/images/model-img3.jpg"/> 
               
             </div>
           </div>
@@ -140,20 +108,6 @@ export default class Events extends React.Component {
         </div>
 
       </div>
-
-
-
-        
-
-
-
-        
-
-
-
-
-
-
 
 
 

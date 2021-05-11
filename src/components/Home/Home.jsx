@@ -42,32 +42,35 @@ export default class Header extends React.Component {
                         <div class="carousel-inner" role="listbox">
                 
                         
-                        <div class="carousel-item active">
-                            <div class="carousel-container" styleprop="background-image: url(assets/images/cse_block3.png)">
-                            <div class="container">
-                                <h2 class="animated fadeInDown">CVR College of Engineering</h2>
-                            
-                            <h3>Computer Science and Engineering Department</h3>
-                            </div>
-                            </div>
-                        </div>
-                
                         
-                        <div class="carousel-item">
-                            <div class="carousel-container" styleprop="background-image: url(assets/images/apple_lab.png)">
-                            <div class="container">
-                                <h2 class="animated fadeInDown">Apple Lab</h2>
-                            
-                            </div>
-                            </div>
-                        </div>
-                
-                        
-                        <div class="carousel-item" styleprop="background-image: url(assets/images/faculty1.jpg.png)">
+
+                        <div class="carousel-item active" style={{backgroundImage: 'url(assets/images/cse_block3.png)'}}>
                             <div class="carousel-container">
 
                             <div class="container">
-                            
+                                <h1 class="animated fadeInDown">CVR College of Engineering</h1>
+                                
+                                <h3>Computer Science and Engineering Department</h3>
+                            </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item" style={{backgroundImage: 'url(assets/images/apple_lab.png)'}}>
+                            <div class="carousel-container">
+
+                            <div class="container">
+                                <h3 class="animated fadeInDown">Apple Lab</h3>
+                            </div>
+                            </div>
+                        </div>
+                
+                        
+                        <div class="carousel-item" style={{backgroundImage: 'url(assets/images/faculty1.jpg.png)'}}>
+                            <div class="carousel-container">
+
+                            <div class="container">
+                                <h3 class="animated fadeInDown">Faculty</h3>
                             </div>
                             </div>
                         </div>
