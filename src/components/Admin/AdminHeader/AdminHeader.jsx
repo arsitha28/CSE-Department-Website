@@ -33,7 +33,7 @@ export default class AdminHeader extends React.Component {
 
                     <ReactBootStrap.Nav.Link href="/admin/AdminWorkshops">Workshops</ReactBootStrap.Nav.Link>
 
-                    <ReactBootStrap.Nav.Link href="/admin/AlumniForm">Alumini</ReactBootStrap.Nav.Link>
+                    <ReactBootStrap.Nav.Link href="/admin/AlumniForm">Alumni</ReactBootStrap.Nav.Link>
 
                     <ReactBootStrap.Nav.Link href="/admin/Announcements">Announcements</ReactBootStrap.Nav.Link>
 
@@ -41,10 +41,9 @@ export default class AdminHeader extends React.Component {
 
                     <ReactBootStrap.Nav.Link href="/admin/AdminCertifications">Certifications</ReactBootStrap.Nav.Link>
 
-                    <ReactBootStrap.Nav.Link href="/admin/login">Login</ReactBootStrap.Nav.Link>
-
+                   
                     
-
+                    <ReactBootStrap.Nav.Link href="/admin/AdminCertifications">view complaints</ReactBootStrap.Nav.Link>
                     
 
                     

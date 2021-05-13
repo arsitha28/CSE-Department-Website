@@ -24,7 +24,7 @@ export default class Certifications extends React.Component {
                                 <div class="account-settings">
                                     <div class="user-profile">
                                         <div class="user-avatar">
-                                            <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Maxwell Admin"/>
+                                            
                                         </div>
                                         <h4 class="user-name">Faculty Name</h4>
                                         
