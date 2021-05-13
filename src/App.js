@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Developers from "./components/Developers";
 import ComplaintBox from "./components/ComplaintBox";
-import Certifications from "./components/Certifications";
+import Certifications from "./components/Admin/Certifications";
 import FirstYear from "./components/StudentCorner/FirstYear";
 import SecondYear from "./components/StudentCorner/SecondYear";
 import ThirdYear from "./components/StudentCorner/ThirdYear";
@@ -76,6 +76,7 @@ const AdminContainer = () => (
     <Route path="/admin/AlumniForm" exact component={AlumniForm} />
     <Route path="/admin/Announcements" exact component={Announcements} />
     <Route path="/admin/Report" exact component={Reports} />
+    <Route path="/admin/AdminCertifications" exact component={Certifications} />
 
   </React.Fragment>
 )

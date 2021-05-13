@@ -39,6 +39,8 @@ export default class AdminHeader extends React.Component {
 
                     <ReactBootStrap.Nav.Link href="/admin/Report">Report</ReactBootStrap.Nav.Link>
 
+                    <ReactBootStrap.Nav.Link href="/admin/AdminCertifications">Certifications</ReactBootStrap.Nav.Link>
+
                     <ReactBootStrap.Nav.Link href="/admin/login">Login</ReactBootStrap.Nav.Link>
 
                     
