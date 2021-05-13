@@ -1,0 +1,39 @@
+.navbar
+{
+    background:#428bca;
+    margin-bottom: 50px;
+}
+
+
+.img-responsive{
+    display: inline;
+    width: 70px;
+    height: 70px;
+   
+  }
+
+  .navbar .link
+    {
+        display: inline;
+    
+    }
+@media (max-width: 600px) {
+    
+    .navbar .link
+    {
+        font-size: 5px;
+    }
+    
+
+    .img-responsive{
+        align-items: inline;
+        width: 10%;
+        
+      }
+
+      h3{
+          align-items: flex-start;
+          font-size: 12px;
+          
+      }
+}

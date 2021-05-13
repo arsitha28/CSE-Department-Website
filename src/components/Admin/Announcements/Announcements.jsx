@@ -26,25 +26,34 @@ export default class Announcements extends React.Component {
     render() {
         return (
             <div>
-                <form onSubmit={this.handleSubmit}>
+
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+
+              <form onSubmit={this.handleSubmit}>
               <div class="container">  
               <div class="form-group">
          
-              <label for="Announcement">Announcement:</label>
+              <label for="Announcement">Announcement</label>
                <textarea class="form-control" rows="5" id="Announcement" value={this.state.post}
             onChange={e => this.setState({announcement: e.target.value })}></textarea>
                 </div>
 
 
 
-<div class="row">
-    <div class="col-md-4 col-lg-2">
-        
-      <button class="btn btn-primary  btn-block">Send</button>
-      </div>
-    </div>
-  </div>
-  </form>
+
+              <div class="row">
+                  <div class="col-md-4 col-lg-2">
+                      
+                    <button class="btn btn-primary  btn-block">Send</button>
+                    </div>
+                  </div>
+                </div>
+                </form>
  
                 
             </div>

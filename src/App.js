@@ -65,6 +65,8 @@ const DefaultContainer = () => (
 const AdminContainer = () => (
   <React.Fragment>
 
+    <AdminHeader/>
+
     <Route exact path="/admin/adminheader" component={AdminHeader}/>
     <Route path="/admin/login" exact component={Login} />
     <Route path="/admin/AdminComplaintBox" exact component={AdminComplaintBox} />
