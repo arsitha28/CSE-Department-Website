@@ -14,7 +14,11 @@ export default class Seminar extends React.Component {
             <div>
                  <section id="gallery" class="gallery">
 
-
+                 <div class="section-title" data-aos="fade-up" >
+                        <h1>Seminar Hall</h1>
+                        <hr/>
+                        
+                    </div>
 
 <div class="container" data-aos="fade-up">
 <div class="section-title">
@@ -96,6 +100,14 @@ export default class Seminar extends React.Component {
 </div>
 
 </div>
+
+<div class="section-title" data-aos="fade-up" >
+    <h3>Description</h3>
+    <hr/>
+                     
+</div>
+
+<div><p>Description about seminar hall</p></div>
 
 </section>
                 

@@ -18,7 +18,7 @@ export default class Year1 extends React.Component {
                         <div class="row">
 
                         <div class="container text-center py-3 mb-4" data-aos="fade-up" styleprop="opacity: 0.8;transition: 0.5s;">
-                            <h1 class="font-weight-light text-white">2020</h1>
+                            <h1 class="font-weight-light text-white">2021</h1>
                         </div>
                         
                         <div class="col-lg-6" data-aos="fade-up">
@@ -31,9 +31,7 @@ export default class Year1 extends React.Component {
                                 
                                 <i class="bx"></i>
                             </p>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">know more...</a>
-                            </div>
+                            
 
                             </div>
 
@@ -49,9 +47,7 @@ export default class Year1 extends React.Component {
                                 
                                 <i class="bx"></i>
                             </p>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">know more...</a>
-                            </div>
+                            
 
                             </div>
 
@@ -68,9 +64,7 @@ export default class Year1 extends React.Component {
                                 <i class="bx"></i>
                             </p>
 
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">know more...</a>
-                            </div>
+                            
 
                             </div>
                             
@@ -87,9 +81,7 @@ export default class Year1 extends React.Component {
                                 <i class="bx"></i>
                             </p>
 
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">know more...</a>
-                            </div>
+                            
 
                             </div>
                         </div>
@@ -104,9 +96,7 @@ export default class Year1 extends React.Component {
                                 
                                 <i class="bx"></i>
                             </p>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">know more...</a>
-                            </div>
+                            
 
                             </div>
                         </div>
@@ -121,9 +111,7 @@ export default class Year1 extends React.Component {
                                 
                                 <i class="bx"></i>
                             </p>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">know more...</a>
-                            </div>
+                            
 
                             </div>
                         </div>

@@ -34,7 +34,7 @@ export default class ComplaintBox extends React.Component {
                <section id="cover" class="min-vh-100">
                 
                     <div id="cover-caption">
-                        <div class="container"data-aos="zoom-in" data-aos-delay="100">
+                        <div class="container" data-aos="zoom-in" data-aos-delay="100">
                             <div class="row">
                                 <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
                                     <h1 class="display-4 py-2 text-truncate">Complaint Box!</h1>

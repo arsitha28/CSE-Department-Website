@@ -92,7 +92,7 @@ export default class Header extends React.Component {
 
                     <div class="alert alert-info">
                         <marquee>
-                            <a href="/updates" class="alert-link"><strong>COVID 19 </strong> Precautions taken at our campus</a>
+                            <a href="/covid" class="alert-link"><strong>COVID 19 </strong> Precautions taken at our campus</a>
                         </marquee>
                     </div>
 
@@ -108,11 +108,9 @@ export default class Header extends React.Component {
                             <span class="section-heading-upper">Message By</span>
                             <span class="section-heading-lower">Head Of the Department</span>
                             </h2>
-                            <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+                            <p class="mb-3">Descrption of HOD'S Message
                             </p>
-                            <div class="intro-button mx-auto">
-                            <a class="btn btn-primary btn-xl" href="#">Know More</a>
-                            </div>
+                            
                         </div>
                         </div>
                     </div>

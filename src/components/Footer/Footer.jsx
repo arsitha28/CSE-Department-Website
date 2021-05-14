@@ -31,9 +31,15 @@ export default class Footer extends React.Component {
                       <div className="footer-pad">
                         <h4 styleprop="color:#310892;">Useful Links</h4>
                         <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">About us</a></li>
-                          <li><a href="#">College Website</a></li>
+                          <li><a href="/">Home</a></li>
+                          <li><a href="/year1">Faculty</a></li>
+                          <li><a href="/lab">Infrastructure</a></li>
+                          <li><a href="/research">Research</a></li>
+                          <li><a href="/workshops">Workshops</a></li>
+                          <li><a href="/fourthyear">Student Corner</a></li>
+                          <li><a href="/alumni">Alumini</a></li>
+                          <li><a href="/developers">Developers</a></li>
+                          <li><a href="http://cvr.ac.in/home4/">College Website</a></li>
                         </ul>
                       </div>
                     </div>

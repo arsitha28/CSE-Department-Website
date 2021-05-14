@@ -30,7 +30,8 @@ import Reports from "./components/Admin/Report/Report";
 import Year1 from  "./components/Faculty/Year1";
 import Year2 from  "./components/Faculty/Year2";
 import Year3 from  "./components/Faculty/Year3";
-
+import Covid from "./components/Covid";
+import FacultyLogin from "./components/FacultyLogin/FacultyLogin";
 
 const DefaultContainer = () => (
   <React.Fragment>
@@ -55,6 +56,7 @@ const DefaultContainer = () => (
         <Route exact path="/research" component={Research}/>
         <Route exact path="/alumni" component={Alumni}/>
         <Route exact path="/events" component={Events}/>
+        <Route exact path="/covid" component={Covid}/>
 
         
     <Footer />
@@ -76,7 +78,19 @@ const AdminContainer = () => (
     <Route path="/admin/AlumniForm" exact component={AlumniForm} />
     <Route path="/admin/Announcements" exact component={Announcements} />
     <Route path="/admin/Report" exact component={Reports} />
-    <Route path="/admin/AdminCertifications" exact component={Certifications} />
+    
+
+  </React.Fragment>
+)
+
+const FacultyContainer = () => (
+  <React.Fragment>
+
+    
+
+    <Route exact path="/faculty/login" component={FacultyLogin}/>
+    
+    <Route path="/faculty/Certifications" exact component={Certifications} />
 
   </React.Fragment>
 )
@@ -96,6 +110,7 @@ function App() {
             
           {process.env.NODE_ENV === "development" && <Route path="/(test)" component={TestContainer} />}
           <Route path="/(admin)" component={AdminContainer} />
+          <Route path="/(faculty)" component={FacultyContainer} />
           <Route component={DefaultContainer} />
 
         </Switch>

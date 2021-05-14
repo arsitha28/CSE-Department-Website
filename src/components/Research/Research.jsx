@@ -37,6 +37,16 @@ export default class Research extends React.Component {
         return (
           
           <div class="container">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <div class="section-title" data-aos="fade-up" >
+              <h1>Research</h1>
+              <hr/>
+                        
+            </div>
             <table class="table table-hover">
             <tr><td width="20%"><b>Faculty Name</b></td>
             <td width="20%"><b>Title of paper</b></td>

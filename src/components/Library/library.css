@@ -10,25 +10,25 @@
     border: 0;
     padding: 12px 15px;
     transition: 0.3s;
-    color: rgb(153, 168, 238);
+    color: rgba(22, 21, 21, 0.603);
     border-radius: 0;
-    border-right: 2px solid #cda45e;
+    border-right: 2px solid #1e5f74;
     font-weight: 600;
     font-size: 15px;
   }
   
   .specials .nav-link:hover {
-    color: #cda45e;
+    color: #1e5f74;
   }
   
   .specials .nav-link.active {
     color: #1a1814;
-    background: #cda45e;
-    border-color: #cda45e;
+    background: #1e5f74;
+    border-color: #1e5f74;
   }
   
   .specials .nav-link:hover {
-    border-color: #cda45e;
+    border-color: #1e5f74;
   }
   
   .specials .tab-pane.active {
@@ -40,7 +40,7 @@
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
-    color: rgb(164, 143, 240);
+    color: rgb(116, 8, 8);
   }
   
   .specials .details p {

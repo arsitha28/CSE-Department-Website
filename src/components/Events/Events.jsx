@@ -109,7 +109,13 @@ export default class Events extends React.Component {
 
       </div>
 
+      <div class="section-title" data-aos="fade-up" >
+        <h3>Description</h3>
+        <hr/>
+                     
+      </div>
 
+      <div><p>Description about Events</p></div>
 
 </section>
                 

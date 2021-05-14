@@ -37,6 +37,17 @@ export default class Workshops extends React.Component {
         return (
           
           <div class="container">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <div class="section-title" data-aos="fade-up" >
+              <h1>Workshop</h1>
+              <hr/>
+                        
+            </div>
+
             <table class="table table-hover">
             <tr><td width="20%"><b>Faculty Name</b></td>
             <td width="20%"><b>Title</b></td>
