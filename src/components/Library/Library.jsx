@@ -30,19 +30,19 @@ export default class Library extends React.Component {
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
-                <a class="nav-link active show" data-toggle="tab" href="#tab-1">TITLE 1</a>
+                <a class="nav-link active show" data-toggle="tab" href="#tab-1">OS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab-2">TITLE 2</a>
+                <a class="nav-link" data-toggle="tab" href="#tab-2">DBMS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab-3">TITLE 3</a>
+                <a class="nav-link" data-toggle="tab" href="#tab-3">WE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab-4">TITLE 4</a>
+                <a class="nav-link" data-toggle="tab" href="#tab-4">BACD</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab-5">TITLE 5</a>
+                <a class="nav-link" data-toggle="tab" href="#tab-5">DSGT</a>
               </li>
             </ul>
           </div>
@@ -51,60 +51,60 @@ export default class Library extends React.Component {
               <div class="tab-pane active show" id="tab-1">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Title 1</h3>
-                    <p class="font-italic">Sub Heading </p>
-                    <p>Description</p>
+                    <h3>Operating System</h3>
+                    <p class="font-italic"> </p>
+                    <p>There are about 500 books in this domain</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                  <img src="assets/images/model-img3.jpg"/>  
+                  <img  height="370px" width="370px" src="assets/images/library-1.jpeg"/>
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-2">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                  <h3>Title 2</h3>
-                    <p class="font-italic">Sub Heading </p>
-                    <p>Description</p>
+                  <h3>Data Base Management Systems</h3>
+                    <p class="font-italic"></p>
+                    <p>There are about 780 books in this domain</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                  <img src="assets/images/model-img3.jpg"/>  
+                  <img  height="370px" width="370px" src="assets/images/library-3.jpeg"/> 
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-3">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                  <h3>Title 3</h3>
-                    <p class="font-italic">Sub Heading </p>
-                    <p>Description</p>
+                  <h3>Web Engineering</h3>
+                    <p class="font-italic"> </p>
+                    <p>There are about 350 books in this domain</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                  <img src="assets/images/model-img3.jpg"/>  
+                  <img  height="370px" width="370px" src="assets/images/library-2.jpeg"/>
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-4">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                  <h3>Title 4</h3>
-                    <p class="font-italic">Sub Heading </p>
-                    <p>Description</p>
+                  <h3>BACD</h3>
+                    <p class="font-italic"></p>
+                    <p>There are about 450 books in this domain</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                  <img src="assets/images/model-img3.jpg"/>  
+                  <img  height="370px" width="370px" src="assets/images/library-3.jpeg"/> 
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-5">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                  <h3>Title 5</h3>
-                    <p class="font-italic">Sub Heading </p>
-                    <p>Description</p>
+                  <h3>DSGT</h3>
+                    <p class="font-italic"> </p>
+                    <p>There are about 700 books in this domain</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                  <img src="assets/images/model-img3.jpg"/>  
+                  <img  height="370px" width="370px" src="assets/images/library-1.jpeg"/>
                   </div>
                 </div>
               </div>
