@@ -80,11 +80,7 @@ export default class Report extends React.Component {
                 <table class="table" id="myTable">
                    
                 <tr><td width="50%"><b> Name</b></td>
-<<<<<<< HEAD
-            <td width="50%"><b>Roll Number</b></td>
-=======
             <td width="50%"><b>Certification</b></td>
->>>>>>> backend
             </tr>
 
             {this.renderItems()}

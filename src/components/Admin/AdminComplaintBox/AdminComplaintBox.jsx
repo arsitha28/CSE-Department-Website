@@ -36,9 +36,6 @@ export default class AdminComplaintBox  extends React.Component {
     render() {
         return (
           
-<<<<<<< HEAD
-          <div class="container">
-=======
           
 
           <div class="container">
@@ -52,7 +49,6 @@ export default class AdminComplaintBox  extends React.Component {
               <hr/>
                         
             </div>
->>>>>>> backend
             <table class="table table-hover">
             <tr><td width="20%"><b> Name</b></td>
             <td width="20%"><b>Roll Number</b></td>
