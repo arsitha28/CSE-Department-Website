@@ -29,8 +29,14 @@ footer a:hover {
 
 .footer-pad {
   text-decoration: none;
+  list-style-type: none;
 }
 
+
+.footer-pad ul{
+  
+  list-style-type: none;
+}
 .footer-middle {
   padding-top: 2em;
   color: rgb(12, 11, 11);

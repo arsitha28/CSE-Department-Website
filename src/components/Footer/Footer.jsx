@@ -20,8 +20,8 @@ export default class Footer extends React.Component {
                           CVR College Of Engineering <br/>
                           Vastunagar, Mangalpalli (V), Ibrahimpatnam (M)<br/>
                           Rangareddy (D), Telangana 501 510 <br/><br/>
-                          <strong styleprop="color:#310892;">Phone </strong><i className="fa fa-phone fa-lg"></i> : 040-42204001<br/>
-                          <strong styleprop="color:#310892;">Email </strong><i className="fa fa-envelope fa-lg"></i> : principal@cvr.ac.in<br/>
+                          <strong style={{marginLeft:'-5px'}}>Phone </strong><i className="fa fa-phone fa-lg"></i> : 040-42204001<br/>
+                          <strong style={{marginLeft:'-3px'}}>Email </strong><i className="fa fa-envelope fa-lg"></i> : vani_vathsala@cvr.ac.in<br/>
                           
                         </p>
                       </div>
@@ -29,7 +29,7 @@ export default class Footer extends React.Component {
                     <div className="col-md-3 col-sm-6">
                     
                       <div className="footer-pad">
-                        <h4 styleprop="color:#310892;">Useful Links</h4>
+                        <h4>Useful Links</h4>
                         <ul>
                           <li><a href="/">Home</a></li>
                           <li><a href="/year1">Faculty</a></li>
@@ -47,7 +47,7 @@ export default class Footer extends React.Component {
                       
                       <div className="text-center">
                           <br/>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.460959492319!2d78.59506221482327!3d17.19641328819331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba659868b4727%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1617464087257!5m2!1sen!2sin" width="180" height="150" styleprop="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.460959492319!2d78.59506221482327!3d17.19641328819331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba659868b4727%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1617464087257!5m2!1sen!2sin" width="220" height="150" styleprop="border:0;" allowfullscreen="" loading="lazy"></iframe>
                       </div>
               
                     </div>
