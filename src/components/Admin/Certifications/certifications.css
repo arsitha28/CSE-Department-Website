@@ -1,0 +1,187 @@
+/**
+* Template Name: Company - v2.2.1
+* Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #4d4643;
+}
+
+a {
+  color: #76323f;
+}
+
+a:hover {
+  color: #76323f;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+/*--------------------------------------------------------------
+  # Back to top button
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  # Disable AOS delay on mobile
+  --------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .head {
+    margin-top: 50px;
+    margin-left: 2px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .img1 {
+    margin-left: 5px;
+    height: 55px;
+    width: 55px;
+  }
+
+  @media screen and (max-width: 400px) {
+    .head {
+      margin-top: 50px;
+      margin-left: 2px;
+      font-size: 14px;
+      text-align: center;
+    }
+    .img1 {
+      margin-left: 5px;
+      height: 50px;
+      width: 50px;
+    }
+  }
+
+  @media screen and (max-width: 280px) {
+    .head {
+      margin-top: 50px;
+      margin-left: -2 px;
+      font-size: 12px;
+      text-align: center;
+    }
+    .img1 {
+      margin-left: -5px;
+      height: 50px;
+      width: 50px;
+    }
+  }
+}
+
+.card-body {
+  margin-left: 80px;
+}
+
+/*--------------------------------------------------------------
+  # Account-Settings
+  --------------------------------------------------------------*/
+.account-settings .user-profile {
+  margin: 0 0 1rem 0;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.account-settings .user-profile .user-avatar {
+  margin: 0 0 1rem 0;
+}
+.account-settings .user-profile .user-avatar img {
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+.account-settings .user-profile h5.user-name {
+  margin: 0 0 0.5rem 0;
+}
+.account-settings .user-profile h6.user-email {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #9fa8b9;
+}
+.account-settings .about {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+.account-settings .about h5 {
+  margin: 0 0 15px 0;
+  color: #007ae1;
+}
+.account-settings .about p {
+  font-size: 0.825rem;
+}
+.form-control {
+  border: 1px solid #cfd1d8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 0.825rem;
+  background: #ffffff;
+  color: #2e323c;
+}
+
+.card {
+  width: 1100px;
+  background: #fdfdfd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-left: 20px;
+  text-align: left;
+}
+
+h5 {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+hr {
+  border-top: 2px solid rgb(8, 8, 8);
+  max-height: 1px;
+  width: 41vmax;
+  background: #070707;
+  align-items: center;
+}
+
+.form-control {
+  border: 2px solid rgb(66, 65, 65);
+}
+
+.row .text-right button {
+  margin-top: 40px;
+  margin-left: 20px;
+  padding-right: 20px;
+}
+
+.card-header {
+  width: 300px;
+  overflow: hidden;
+}
+
+.row .accordion .card {
+  width: 600px;
+}

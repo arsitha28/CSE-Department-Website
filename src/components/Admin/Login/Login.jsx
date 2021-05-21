@@ -15,16 +15,10 @@ export default class Login extends React.Component {
                         <span id="reauth-name" class="reauth-name"></span>
                         <input type="text" id="inputusername" class="form-control" placeholder="User Name" required autofocus/>
                         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required/>
-                        <div id="remember" class="checkbox">
-                            <label>
-                                <input type="checkbox" value="remember-me"/> Remember me
-                            </label>
-                        </div>
+                        
                         <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
                     </form>
-                    <a href="#" class="forgot-password">
-                        Forgot the password?
-                    </a>
+                    
                 </div>
             
 

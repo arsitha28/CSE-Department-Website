@@ -5,6 +5,32 @@ import * as ReactBootStrap from "react-bootstrap";
 import {Figure} from 'react-bootstrap';
 
 export default class Header extends React.Component {
+    state = {
+        itemList: [
+       
+        ]
+      };
+      
+      classAPI(){
+        fetch("http://localhost:9000/mainWebsiteAPI/announcement")
+        .then(res => res.json())
+        .then(res=>this.setState({itemList:res}));
+      }
+    
+      componentWillMount(){
+        this.classAPI();
+      }
+      renderItems() {
+        return this.state.itemList.map(item => (
+            <table  class="table table-hover">
+            <tr><td width="20%">{item.announcementValue}</td>
+            
+         </tr>
+         </table>
+        ));
+      }
+    
+        
     render() {
         return (
             <div>
@@ -16,32 +42,35 @@ export default class Header extends React.Component {
                         <div class="carousel-inner" role="listbox">
                 
                         
-                        <div class="carousel-item active">
-                            <div class="carousel-container" styleprop="background-image: url(assets/images/cse_block3.png)">
-                            <div class="container">
-                                <h2 class="animated fadeInDown">CVR College of Engineering</h2>
-                            
-                            <h3>Computer Science and Engineering Department</h3>
-                            </div>
-                            </div>
-                        </div>
-                
                         
-                        <div class="carousel-item">
-                            <div class="carousel-container" styleprop="background-image: url(assets/images/apple_lab.png)">
-                            <div class="container">
-                                <h2 class="animated fadeInDown">Apple Lab</h2>
-                            
-                            </div>
-                            </div>
-                        </div>
-                
-                        
-                        <div class="carousel-item" styleprop="background-image: url(assets/images/faculty1.jpg.png)">
+
+                        <div class="carousel-item active" style={{backgroundImage: 'url(assets/images/cse_block3.png)'}}>
                             <div class="carousel-container">
 
                             <div class="container">
-                            
+                                <h1 class="animated fadeInDown">CVR College of Engineering</h1>
+                                
+                                <h3>Computer Science and Engineering Department</h3>
+                            </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item" style={{backgroundImage: 'url(assets/images/apple_lab.png)'}}>
+                            <div class="carousel-container">
+
+                            <div class="container">
+                                <h3 class="animated fadeInDown">Apple Lab</h3>
+                            </div>
+                            </div>
+                        </div>
+                
+                        
+                        <div class="carousel-item" style={{backgroundImage: 'url(assets/images/faculty1.jpg.png)'}}>
+                            <div class="carousel-container">
+
+                            <div class="container">
+                                <h3 class="animated fadeInDown">Faculty</h3>
                             </div>
                             </div>
                         </div>
@@ -63,9 +92,12 @@ export default class Header extends React.Component {
 
                     <div class="alert alert-info">
                         <marquee>
-                            <a href="/updates" class="alert-link"><strong>COVID 19 </strong> Precautions taken at our campus</a>
+                            <a href="/covid" class="alert-link"><strong>COVID 19 </strong> Precautions taken at our campus</a>
                         </marquee>
                     </div>
+
+                    <h1> Announcements</h1>
+                        {this.renderItems()}
 
                     <section class="page-section clearfix">
                     <div class="container">
@@ -76,15 +108,15 @@ export default class Header extends React.Component {
                             <span class="section-heading-upper">Message By</span>
                             <span class="section-heading-lower">Head Of the Department</span>
                             </h2>
-                            <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+                            <p class="mb-3">Descrption of HOD'S Message
                             </p>
-                            <div class="intro-button mx-auto">
-                            <a class="btn btn-primary btn-xl" href="#">Know More</a>
-                            </div>
+                            
                         </div>
                         </div>
                     </div>
                     </section>
+
+
 
                     <div id="demo" class="carousel slide" data-ride="carousel">
 

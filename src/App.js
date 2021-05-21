@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import Faculty from "./components/Faculty";
 import Developers from "./components/Developers";
 import ComplaintBox from "./components/ComplaintBox";
-import Certifications from "./components/Certifications";
+import Certifications from "./components/Admin/Certifications";
 import FirstYear from "./components/StudentCorner/FirstYear";
 import SecondYear from "./components/StudentCorner/SecondYear";
 import ThirdYear from "./components/StudentCorner/ThirdYear";
@@ -14,17 +13,37 @@ import FourthYear from "./components/StudentCorner/FourthYear";
 import Footer from "./components/Footer";
 import AdminHeader from "./components/Admin/AdminHeader";
 import Login from "./components/Admin/Login/Login";
-import Labs from "./components/Labs";
-
+import Seminar from "./components/Seminar";
+import Library from "./components/Library";
+import Research from "./components/Research";
+import Workshops from "./components/Workshops";
+import Alumni from "./components/Alumni";
+import Events from "./components/Events";
+import Lab from "./components/Lab";
+import AdminResearch from "./components/Admin/AdminResearch";
+import AdminComplaintBox from "./components/Admin/AdminComplaintBox/AdminComplaintBox";
+import AdminStudentCorner from "./components/Admin/AdminStudentCorner";
+import AdminWorkshop from "./components/Admin/AdminWorkshops";
+import AlumniForm from "./components/Admin/AlumniForm";
+import Announcements from "./components/Admin/Announcements";
+import Reports from "./components/Admin/Report/Report";
+import Year1 from  "./components/Faculty/Year1";
+import Year2 from  "./components/Faculty/Year2";
+import Year3 from  "./components/Faculty/Year3";
+import Covid from "./components/Covid";
+import FacultyLogin from "./components/FacultyLogin/FacultyLogin";
 
 const DefaultContainer = () => (
   <React.Fragment>
-    <Header />
-    
+   
+    <Header/>
         <Route exact path="/" component={Home}/>
         <Route exact path="/header" component={Header}/>
-        <Route exact path="/faculty" component={Faculty}/>
-        <Route exact path="/labs" component={Labs}/>
+        <Route exact path="/seminar" component={Seminar}/>
+        <Route exact path="/year1" component={Year1}/>
+        <Route exact path="/year2" component={Year2}/>
+        <Route exact path="/year3" component={Year3}/>
+        <Route exact path="/lab" component={Lab}/>
         <Route exact path="/developers" component={Developers}/>
         <Route exact path="/complaint" component={ComplaintBox}/>
         <Route exact path="/firstyear" component={FirstYear}/>
@@ -32,6 +51,13 @@ const DefaultContainer = () => (
         <Route exact path="/thirdyear" component={ThirdYear}/>
         <Route exact path="/fourthyear" component={FourthYear}/>
         <Route exact path="/footer" component={Footer}/>
+        <Route exact path="/library" component={Library}/>
+        <Route exact path="/workshops" component={Workshops}/>
+        <Route exact path="/research" component={Research}/>
+        <Route exact path="/alumni" component={Alumni}/>
+        <Route exact path="/events" component={Events}/>
+        <Route exact path="/covid" component={Covid}/>
+
         
     <Footer />
   </React.Fragment>
@@ -41,8 +67,30 @@ const DefaultContainer = () => (
 const AdminContainer = () => (
   <React.Fragment>
 
+    <AdminHeader/>
+
     <Route exact path="/admin/adminheader" component={AdminHeader}/>
     <Route path="/admin/login" exact component={Login} />
+    <Route path="/admin/AdminComplaintBox" exact component={AdminComplaintBox} />
+    <Route path="/admin/AdminResearch" exact component={AdminResearch} />
+    <Route path="/admin/AdminStudentCorner" exact component={AdminStudentCorner} />
+    <Route path="/admin/AdminWorkshops" exact component={AdminWorkshop} />
+    <Route path="/admin/AlumniForm" exact component={AlumniForm} />
+    <Route path="/admin/Announcements" exact component={Announcements} />
+    <Route path="/admin/Report" exact component={Reports} />
+    
+
+  </React.Fragment>
+)
+
+const FacultyContainer = () => (
+  <React.Fragment>
+
+    
+
+    <Route exact path="/faculty/login" component={FacultyLogin}/>
+    
+    <Route path="/faculty/Certifications" exact component={Certifications} />
 
   </React.Fragment>
 )
@@ -62,6 +110,7 @@ function App() {
             
           {process.env.NODE_ENV === "development" && <Route path="/(test)" component={TestContainer} />}
           <Route path="/(admin)" component={AdminContainer} />
+          <Route path="/(faculty)" component={FacultyContainer} />
           <Route component={DefaultContainer} />
 
         </Switch>

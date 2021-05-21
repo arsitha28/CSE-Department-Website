@@ -31,9 +31,15 @@ export default class Footer extends React.Component {
                       <div className="footer-pad">
                         <h4 styleprop="color:#310892;">Useful Links</h4>
                         <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">About us</a></li>
-                          <li><a href="#">College Website</a></li>
+                          <li><a href="/">Home</a></li>
+                          <li><a href="/year1">Faculty</a></li>
+                          <li><a href="/lab">Infrastructure</a></li>
+                          <li><a href="/research">Research</a></li>
+                          <li><a href="/workshops">Workshops</a></li>
+                          <li><a href="/fourthyear">Student Corner</a></li>
+                          <li><a href="/alumni">Alumini</a></li>
+                          <li><a href="/developers">Developers</a></li>
+                          <li><a href="http://cvr.ac.in/home4/">College Website</a></li>
                         </ul>
                       </div>
                     </div>
@@ -41,7 +47,7 @@ export default class Footer extends React.Component {
                       
                       <div className="text-center">
                           <br/>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.460959492319!2d78.59506221482327!3d17.19641328819331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba659868b4727%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1617464087257!5m2!1sen!2sin" width="300" height="150" styleprop="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.460959492319!2d78.59506221482327!3d17.19641328819331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba659868b4727%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1617464087257!5m2!1sen!2sin" width="180" height="150" styleprop="border:0;" allowfullscreen="" loading="lazy"></iframe>
                       </div>
               
                     </div>
