@@ -23,9 +23,9 @@ export default class Year1 extends React.Component {
                         
                         <div class="col-lg-6" data-aos="fade-up">
                             <div class="testimonial-item">
-                            <img src="assets/images/thumb01.jpg" class="testimonial-img" alt=""/>
-                            <h3 class="text-left">Faculty Name</h3>
-                            <h4 class="text-left">Designation</h4>
+                            <img src="assets/images/profsiva.jpg" class="testimonial-img" alt=""/>
+                            <h3 class="text-left">Prof.L.C.Siva Reddy</h3>
+                            <h4 class="text-left">Prof. &amp; Vice Principal</h4>
                             <p class="text-left">
                                 <i class="bx"></i>
                                 
@@ -39,9 +39,9 @@ export default class Year1 extends React.Component {
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="testimonial-item mt-4 mt-lg-0">
-                            <img src="assets/images/thumb01.jpg" class="testimonial-img" alt=""/>
-                            <h3 class="text-left">Faculty Name</h3>
-                            <h4 class="text-left">Designation</h4>
+                            <img src="assets/images/durgabhavani.jpg" class="testimonial-img" alt=""/>
+                            <h3 class="text-left">Dr.D.Durga Bhavani</h3>
+                            <h4 class="text-left">Professor</h4>
                             <p class="text-left">
                                 <i class="bx"></i>
                                 
@@ -55,9 +55,9 @@ export default class Year1 extends React.Component {
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                             <div class="testimonial-item mt-4">
-                            <img src="assets/images/thumb01.jpg" class="testimonial-img" alt=""/>
-                            <h3 class="text-left">Faculty Name</h3>
-                            <h4 class="text-left">Designation</h4>
+                            <img src="assets/images/VenkateswaraRao.jpg" class="testimonial-img" alt=""/>
+                            <h3 class="text-left">Dr.K.Venkateswara Rao</h3>
+                            <h4 class="text-left">Professor</h4>
                             <p class="text-left">
                                 <i class="bx"></i>
                                
@@ -72,9 +72,9 @@ export default class Year1 extends React.Component {
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                             <div class="testimonial-item mt-4">
-                            <img src="assets/images/thumb01.jpg" class="testimonial-img" alt=""/>
-                            <h3 class="text-left">Faculty Name</h3>
-                            <h4 class="text-left">Designation</h4>
+                            <img src="assets/images/VaniVathsala.jpg" class="testimonial-img" alt=""/>
+                            <h3 class="text-left">Dr.A.Vani Vathsala</h3>
+                            <h4 class="text-left">Professor &amp; HOD</h4>
                             <p class="text-left">
                                 <i class="bx"></i>
                                 
@@ -88,9 +88,9 @@ export default class Year1 extends React.Component {
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
                             <div class="testimonial-item mt-4">
-                            <img src="assets/images/thumb01.jpg" class="testimonial-img" alt=""/>
-                            <h3 class="text-left">Faculty Name</h3>
-                            <h4 class="text-left">Designation</h4>
+                            <img src="assets/images/M.Raghava.jpg" class="testimonial-img" alt=""/>
+                            <h3 class="text-left">Dr.Raghava M</h3>
+                            <h4 class="text-left">Professor</h4>
                             <p class="text-left">
                                 <i class="bx"></i>
                                 
@@ -103,9 +103,9 @@ export default class Year1 extends React.Component {
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
                             <div class="testimonial-item mt-4">
-                            <img src="assets/images/thumb01.jpg" class="testimonial-img" alt=""/>
-                            <h3 class="text-left">Faculty Name</h3>
-                            <h4 class="text-left">Designation</h4>
+                            <img src="assets/images/DrSarma.jpg" class="testimonial-img" alt=""/>
+                            <h3 class="text-left">Dr.K.Venkatesh Sharma</h3>
+                            <h4 class="text-left">Professor</h4>
                             <p class="text-left">
                                 <i class="bx"></i>
                                 

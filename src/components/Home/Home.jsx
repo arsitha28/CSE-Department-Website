@@ -48,7 +48,7 @@ export default class Header extends React.Component {
                             <div class="carousel-container">
 
                             <div class="container">
-                                <h1 class="animated fadeInDown">CVR College of Engineering</h1>
+                                <h1 class="animated fadeInDown" style={{fontFamily:'Helvetica,Arial,sans-serif'}}>CVR College of Engineering</h1>
                                 
                                 <h3>Computer Science and Engineering Department</h3>
                             </div>

@@ -438,7 +438,7 @@ section {
 
 @-webkit-keyframes slide-down {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
     opacity: 1;
@@ -447,7 +447,7 @@ section {
 
 @keyframes slide-down {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
     opacity: 1;
@@ -518,7 +518,7 @@ section {
 #hero .carousel-inner .carousel-item,
 #hero .carousel-inner .active.carousel-item-left,
 #hero .carousel-inner .active.carousel-item-right {
-  opacity: 0;
+  opacity: 1;
 }
 
 #hero .carousel-inner .active,
@@ -634,7 +634,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Raleway;
+  font-family:Helvetica,Arial,sans-serif;
 }
 p {
   line-height: 1.75;
