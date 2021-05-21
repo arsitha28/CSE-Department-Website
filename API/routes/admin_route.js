@@ -162,10 +162,11 @@ var con = mysql.createConnection({
 });
 });
 
-
 app.post('/announcement', function (req, res) {
   var result= req.body.post;
-
+  var datetime = new Date();
+    
+  var date= datetime.getFullYear()+"-"+datetime.getMonth()+"-"+datetime.getDate()+" "+datetime.getHours()+":"+datetime.getMinutes()+":"+datetime.getSeconds();
 var mysql = require('mysql');
 var con = mysql.createConnection({
   host: "localhost",
@@ -179,7 +180,9 @@ if (err) throw err;
 console.log("Connected!");
 var sql = "INSERT INTO sys.announcement VALUES (?)";
 var values = [
-  result[0]
+ 
+  result[0],
+  date
 ];
 con.query(sql, [values], function (err, result) {
   if (err) throw err;
@@ -189,7 +192,6 @@ con.query(sql, [values], function (err, result) {
  // res.send("API working");
 });
 });
-
 
 
   

@@ -34,6 +34,18 @@ export default class Alumni extends React.Component {
     render() {
         return (
           <div class="container">
+<<<<<<< HEAD
+=======
+              <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <div class="section-title" data-aos="fade-up" >
+              <h1>Alumni</h1>
+              <hr/>
+              </div>
+>>>>>>> backend
           <table class="table table-hover">
           <tr><td width="20%"><b> Name</b></td>
           <td width="20%"><b>Branch</b></td>

@@ -36,7 +36,23 @@ export default class AdminComplaintBox  extends React.Component {
     render() {
         return (
           
+<<<<<<< HEAD
           <div class="container">
+=======
+          
+
+          <div class="container">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <div class="section-title" data-aos="fade-up" >
+              <h1>View Complaints</h1>
+              <hr/>
+                        
+            </div>
+>>>>>>> backend
             <table class="table table-hover">
             <tr><td width="20%"><b> Name</b></td>
             <td width="20%"><b>Roll Number</b></td>

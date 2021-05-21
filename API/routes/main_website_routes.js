@@ -168,7 +168,7 @@ app.get('/research',function(req,res,next){
             
             con.connect(function(err) {
               if (err) throw err;
-              con.query("SELECT * FROM sys.announcement", function (err, result, fields) {
+              con.query("SELECT announcementValue FROM sys.announcement order by date desc", function (err, result, fields) {
                 if (err) throw err;
                 console.log(result);
                 res.send(result);
