@@ -38,7 +38,7 @@ export default class Alumni extends React.Component {
             <br/>
             <br/>
             <div class="section-title" data-aos="fade-up" >
-              <h1>Alumini</h1>
+              <h1>Alumni</h1>
               <hr/>
                         
             </div>

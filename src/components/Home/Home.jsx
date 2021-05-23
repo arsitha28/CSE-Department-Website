@@ -59,9 +59,7 @@ export default class Header extends React.Component {
                         <div class="carousel-item" style={{backgroundImage: 'url(assets/images/apple_lab.png)'}}>
                             <div class="carousel-container">
 
-                            <div class="container">
-                                <h3 class="animated fadeInDown">Apple Lab</h3>
-                            </div>
+                           
                             </div>
                         </div>
                 
@@ -69,9 +67,7 @@ export default class Header extends React.Component {
                         <div class="carousel-item" style={{backgroundImage: 'url(assets/images/faculty1.jpg.png)'}}>
                             <div class="carousel-container">
 
-                            <div class="container">
-                                <h3 class="animated fadeInDown">Faculty</h3>
-                            </div>
+                           
                             </div>
                         </div>
                 

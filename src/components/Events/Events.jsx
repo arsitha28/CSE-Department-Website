@@ -11,7 +11,7 @@ export default class Events extends React.Component {
     <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Welcome to <span>CVR CSE Events</span></h1>
+          <h1 >Welcome to <span>CVR CSE Events</span></h1>
           <h2>A great place where students show their creativity !</h2>
 
         
@@ -42,7 +42,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/model-img3.jpg"/> 
+                <img height="370px" width="370px"src="assets/images/eventpic-4.jpg"/> 
               
             </div>
           </div>
@@ -50,7 +50,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/model-img3.jpg"/>  
+                <img  height="370px" width="550px" src="assets/images/event-1.jpg"/>  
               
             </div>
           </div>
@@ -58,7 +58,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/model-img3.jpg"/>  
+                <img  height="370px" width="700px" src="assets/images/event-2.jpg"/>  
               
             </div>
           </div>
@@ -66,7 +66,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/model-img3.jpg"/>  
+                <img   height="370px" width="700px"src="assets/images/event-3.jpg"/>  
               
             </div>
           </div>
@@ -76,7 +76,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/model-img3.jpg"/>  
+                <img  height="370px" width="370px" src="assets/images/model-img3.jpg"/>  
               
             </div>
           </div>
@@ -84,7 +84,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/model-img3.jpg"/>  
+                <img  height="370px" width="370px" src="assets/images/model-img3.jpg"/>  
               
             </div>
           </div>
@@ -92,7 +92,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/model-img3.jpg"/> 
+                <img  height="370px" width="370px" src="assets/images/model-img3.jpg"/> 
               
             </div>
           </div>
@@ -100,7 +100,7 @@ export default class Events extends React.Component {
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               
-                <img src="assets/images/model-img3.jpg"/> 
+                <img  height="370px" width="370px" src="assets/images/model-img3.jpg"/> 
               
             </div>
           </div>
@@ -115,7 +115,7 @@ export default class Events extends React.Component {
                      
       </div>
 
-      <div><p>Description about Events</p></div>
+      <div><p>We conduct cse branch fest called cybernauts every year where students from cse branch showcase their tallent and also participate in many competitions.</p></div>
 
 </section>
                 
