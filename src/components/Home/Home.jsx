@@ -41,8 +41,6 @@ export default class Header extends React.Component {
                 
                         <div class="carousel-inner" role="listbox">
                 
-                        
-                        
 
                         <div class="carousel-item active" style={{backgroundImage: 'url(assets/images/cse_block3.png)'}}>
                             <div class="carousel-container">
@@ -67,7 +65,6 @@ export default class Header extends React.Component {
                         <div class="carousel-item" style={{backgroundImage: 'url(assets/images/faculty1.jpg.png)'}}>
                             <div class="carousel-container">
 
-                           
                             </div>
                         </div>
                 
