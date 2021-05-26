@@ -34,7 +34,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/model-img3.jpg"/> 
+<img  height="370px" width="500px" src="assets/images/seminarhall-1.jpeg"/>
 
 </div>
 </div>
@@ -42,7 +42,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/model-img3.jpg"/>  
+<img  height="370px" width="700px" src="assets/images/event-2.jpg"/>  
   
 </div>
 </div>
@@ -50,7 +50,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/model-img3.jpg"/>  
+<img  height="370px" width="500px" src="assets/images/seminarhall-1.jpeg"/>
   
 </div>
 </div>
@@ -58,8 +58,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/model-img3.jpg"/>  
-  
+<img  height="370px" width="570px" src="assets/images/event-1.jpg"/>  
 </div>
 </div>
 
@@ -68,7 +67,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/model-img3.jpg"/>  
+<img  height="370px" width="500px" src="assets/images/seminarhall-1.jpeg"/> 
   
 </div>
 </div>
@@ -76,7 +75,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/model-img3.jpg"/>  
+<img  height="370px" width="700px" src="assets/images/event-3.jpg"/>  
   
 </div>
 </div>
@@ -84,7 +83,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/model-img3.jpg"/> 
+<img  height="370px" width="700px" src="assets/images/event-2.jpg"/>  
   
 </div>
 </div>
@@ -92,7 +91,7 @@ export default class Seminar extends React.Component {
 <div class="col-lg-3 col-md-4">
 <div class="gallery-item">
   
-    <img src="assets/images/model-img3.jpg"/> 
+<img  height="370px" width="500px" src="assets/images/seminarhall-2.jpeg"/>
   
 </div>
 </div>
@@ -106,8 +105,10 @@ export default class Seminar extends React.Component {
     <hr/>
                      
 </div>
-
-<div><p>Description about seminar hall</p></div>
+     
+<div><p>The seminar hall is well equipped with air-conditioners,LCD Projectors and multimedia kits.
+     The seminar Seating capacity is 105.
+</p></div>
 
 </section>
                 

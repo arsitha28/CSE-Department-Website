@@ -29,7 +29,7 @@ export default class AdminHeader extends React.Component {
                   <ReactBootStrap.Nav className="navbar-brand mx-auto">
                     <ReactBootStrap.Nav.Link href="/admin/AdminResearch">Research</ReactBootStrap.Nav.Link>
                   
-                    <ReactBootStrap.Nav.Link href="/admin/AdminStudentCorner">Student Corner</ReactBootStrap.Nav.Link>
+                  
 
                     <ReactBootStrap.Nav.Link href="/admin/AdminWorkshops">Workshops</ReactBootStrap.Nav.Link>
 
@@ -39,15 +39,9 @@ export default class AdminHeader extends React.Component {
 
                     <ReactBootStrap.Nav.Link href="/admin/Report">Report</ReactBootStrap.Nav.Link>
 
-                    <ReactBootStrap.Nav.Link href="/admin/AdminCertifications">Certifications</ReactBootStrap.Nav.Link>
-
                    
+                    <ReactBootStrap.Nav.Link href="/admin/AdminComplaintBox">view complaints</ReactBootStrap.Nav.Link>
                     
-                    <ReactBootStrap.Nav.Link href="/admin/AdminCertifications">view complaints</ReactBootStrap.Nav.Link>
-                    
-
-                    
-
                   </ReactBootStrap.Nav>
                   
                 </ReactBootStrap.Navbar.Collapse>

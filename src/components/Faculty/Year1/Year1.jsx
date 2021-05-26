@@ -39,9 +39,10 @@ export default class Year1 extends React.Component {
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="testimonial-item mt-4 mt-lg-0">
-                            <img src="assets/images/durgabhavani.jpg" class="testimonial-img" alt=""/>
-                            <h3 class="text-left">Dr.D.Durga Bhavani</h3>
-                            <h4 class="text-left">Professor</h4>
+                            <img src="assets/images/VaniVathsala.jpg" class="testimonial-img" alt=""/>
+                            <h3 class="text-left">Dr.A.Vani Vathsala</h3>
+                            <h4 class="text-left">Professor &amp; HOD</h4>
+                            
                             <p class="text-left">
                                 <i class="bx"></i>
                                 
@@ -72,9 +73,9 @@ export default class Year1 extends React.Component {
 
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                             <div class="testimonial-item mt-4">
-                            <img src="assets/images/VaniVathsala.jpg" class="testimonial-img" alt=""/>
-                            <h3 class="text-left">Dr.A.Vani Vathsala</h3>
-                            <h4 class="text-left">Professor &amp; HOD</h4>
+                            <img src="assets/images/durgabhavani.jpg" class="testimonial-img" alt=""/>
+                            <h3 class="text-left">Dr.D.Durga Bhavani</h3>
+                            <h4 class="text-left">Professor</h4>
                             <p class="text-left">
                                 <i class="bx"></i>
                                 

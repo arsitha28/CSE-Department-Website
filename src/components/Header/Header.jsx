@@ -38,7 +38,7 @@ export default class Header extends React.Component {
                                     <ul>
                                         <li><a href="/lab" styleprop="text-decoration: none;">Labs</a></li>
                                         <li><a href="/seminar" styleprop="text-decoration: none;">Seminar Hall</a></li>
-                                        <li><a href="/library" styleprop="text-decoration: none;">classrooms &amp; Library</a></li>
+                                        <li><a href="/library" styleprop="text-decoration: none;">Library</a></li>
                                         
                                     </ul>
                                     </li>
