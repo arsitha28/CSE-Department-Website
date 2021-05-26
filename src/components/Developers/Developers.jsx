@@ -21,7 +21,7 @@ export default class Developers extends React.Component {
 
                             <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                                 <div class="member">
-                                    <img src="assets/images/afroz_sir.jpg" class="img-fluid" alt=""/>
+                                    <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                     <div class="member-info">
                                         <div class="member-info-content">
                                         <h4>Mentor Name</h4>
@@ -49,7 +49,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                             <div class="member">
-                                <img src="assets/images/jd1.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>
@@ -62,7 +62,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                             <div class="member">
-                                <img src="assets/images/keerthika.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>
@@ -75,7 +75,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                             <div class="member">
-                                <img src="assets/images/kharshi.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>
@@ -88,7 +88,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                             <div class="member">
-                                <img src="assets/images/kushaal.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>
@@ -105,7 +105,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                             <div class="member">
-                                <img src="assets/images/hk1.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>
@@ -118,7 +118,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                             <div class="member">
-                                <img src="assets/images/harsha.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>
@@ -131,7 +131,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                             <div class="member">
-                                <img src="assets/images/hema.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>
@@ -144,7 +144,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                             <div class="member">
-                                <img src="assets/images/rao.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>
@@ -162,7 +162,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                             <div class="member">
-                            <img src="assets/images/mohan.jpg" class="img-fluid" alt=""/>
+                            <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                             <div class="member-info">
                                 <div class="member-info-content">
                                 <h4>Developer</h4>
@@ -175,7 +175,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                             <div class="member">
-                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>
@@ -188,7 +188,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                             <div class="member">
-                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>
@@ -201,7 +201,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                             <div class="member">
-                                <img src="assets/images/porfolio-06.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>

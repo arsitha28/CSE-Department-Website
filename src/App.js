@@ -46,6 +46,7 @@ import Year2 from  "./components/Faculty/Year2";
 import Year3 from  "./components/Faculty/Year3";
 import Covid from "./components/Covid";
 import FacultyLogin from "./components/FacultyLogin/FacultyLogin";
+import Aboutus from "./components/Aboutus";
 
 
 const DefaultContainer = () => (
@@ -55,9 +56,9 @@ const DefaultContainer = () => (
         <Route exact path="/" component={Home}/>
         <Route exact path="/header" component={Header}/>
         <Route exact path="/seminar" component={Seminar}/>
-        <Route exact path="/year1" component={Year1}/>
-        <Route exact path="/year2" component={Year2}/>
-        <Route exact path="/year3" component={Year3}/>
+        <Route exact path="/faculty_year1" component={Year1}/>
+        <Route exact path="/faculty_year2" component={Year2}/>
+        <Route exact path="/faculty_year3" component={Year3}/>
         <Route exact path="/lab" component={Lab}/>
         <Route exact path="/developers" component={Developers}/>
         <Route exact path="/complaint" component={ComplaintBox}/>
@@ -86,6 +87,7 @@ const DefaultContainer = () => (
         <Route exact path="/alumni" component={Alumni}/>
         <Route exact path="/events" component={Events}/>
         <Route exact path="/covid" component={Covid}/>
+        <Route exact path="/about" component={Aboutus}/>
 
         
     <Footer />

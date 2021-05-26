@@ -59,6 +59,9 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -181,7 +184,38 @@
         localStorage.setItem("PROFILE_NAME", "César Izquierdo Tello");
         localStorage.setItem("PROFILE_REAUTH_EMAIL", "oneaccount@gmail.com");
     }
-    </script>
+  
+    $(document).on('click', '.navbar-toggle', function() {
+      var $toggle = $(this);
+    
+      if (blackDashboard.misc.navbar_menu_visible == 1) {
+        $html.removeClass('nav-open');
+        blackDashboard.misc.navbar_menu_visible = 0;
+        setTimeout(function() {
+          $toggle.removeClass('toggled');
+          $('.bodyClick').remove();
+        }, 550);
+    
+      } else {
+        setTimeout(function() {
+          $toggle.addClass('toggled');
+        }, 580);
+    
+        var div = '<div class="bodyClick"></div>';
+        $(div).appendTo('body').click(function() {
+          $html.removeClass('nav-open');
+          blackDashboard.misc.navbar_menu_visible = 0;
+          setTimeout(function() {
+            $toggle.removeClass('toggled');
+            $('.bodyClick').remove();
+          }, 550);
+        });
+    
+        $html.addClass('nav-open');
+        blackDashboard.misc.navbar_menu_visible = 1;
+      }
+    });
 
+  </script>
   </body>
 </html>

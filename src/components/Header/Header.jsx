@@ -11,17 +11,24 @@ export default class Header extends React.Component {
                 <header id="header" className="fixed-top">
                     <div className="container d-flex align-items-center">
 
-                        <a href="/" className="logo mr-auto"><img src="assets/images/cvrlogo.png" alt="" className="img-fluid"/></a>
-                        
-                            <nav className="nav-menu d-none d-lg-block">
+                        <a href="/" className="logo mr-auto"><img src="assets/images/cvr_logo.png" alt="abc" className="img-fluid"/></a>
+
+                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-bar navbar-kebab"></span>
+                            <span className="navbar-toggler-bar navbar-kebab"></span>
+                            <span className="navbar-toggler-bar navbar-kebab"></span>
+                        </button>
+                            <nav className="nav-menu navbar-collapse" id="navigation">
 
                                 <ul>
                                     <li className="active"><a href="/" styleprop="text-decoration: none;">Home</a></li>
+                                    <li><a href="/about" styleprop="text-decoration: none;">About Us</a></li>
                                     <li className="drop-down"><a href="/" styleprop="text-decoration: none;">Faculty</a>
                                     <ul>
-                                        <li><a href="/year1" styleprop="text-decoration: none;">2021</a></li>
-                                        <li><a href="/year2" styleprop="text-decoration: none;">2020</a></li>
-                                        <li><a href="/year3" styleprop="text-decoration: none;">2019</a></li>
+                                        <li><a href="/faculty_year1" styleprop="text-decoration: none;">2021</a></li>
+                                        <li><a href="/faculty_year2" styleprop="text-decoration: none;">2020</a></li>
+                                        <li><a href="/faculty_year3" styleprop="text-decoration: none;">2019</a></li>
                                         
                                         
                                     </ul>

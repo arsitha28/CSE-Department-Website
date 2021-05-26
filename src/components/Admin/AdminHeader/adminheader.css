@@ -6,7 +6,8 @@
 
 
 .img-responsive{
-    display: inline;
+    margin-top:20px;
+    display: center;
     width: 70px;
     height: 70px;
    
@@ -26,7 +27,7 @@
     
 
     .img-responsive{
-        align-items: inline;
+        align-items: center;
         width: 10%;
         
       }
