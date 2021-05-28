@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link} from 'react-router-dom'
 
 
 
@@ -56,6 +57,7 @@ export default class AdminResearch extends React.Component {
    
    
      <button type="submit" onClick={this.onSubmit} class="btn btn-outline-success">ADD NEW ENTRY</button>
+     <Link to="/" onClick={this.onSubmit} class="btn btn-outline-success" >ADD NEW ENTRY Demo</Link>
    
      </form>
     
