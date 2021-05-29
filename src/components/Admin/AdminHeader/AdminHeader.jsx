@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import * as ReactBootStrap from "react-bootstrap";
 import {Figure} from 'react-bootstrap'
 import './adminheader.css';
+import { Link,Redirect } from 'react-router-dom'
 
 export default class AdminHeader extends React.Component {
     render() {
@@ -41,9 +42,11 @@ export default class AdminHeader extends React.Component {
 
                    
                     <ReactBootStrap.Nav.Link href="/admin/AdminComplaintBox">view complaints</ReactBootStrap.Nav.Link>
+
+                    
                     
                   </ReactBootStrap.Nav>
-                  
+                  <Link to="/admin/logout" style={{color:"white",width:"80px",height:"40px"}}>Logout</Link>
                 </ReactBootStrap.Navbar.Collapse>
               </ReactBootStrap.Navbar>
 

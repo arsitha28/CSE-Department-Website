@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import AdminHeader from "../AdminHeader";
 
 
 export default class AlumniForm extends React.Component {
@@ -29,7 +29,7 @@ export default class AlumniForm extends React.Component {
     render() {
         return (
             <div>
-
+              <AdminHeader/>
               <br/>
               <br/>
               <br/>

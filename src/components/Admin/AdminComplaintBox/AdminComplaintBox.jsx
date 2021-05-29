@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './AdminComplaintBox.css';
-
+import AdminHeader from "../AdminHeader";
 
 export default class AdminComplaintBox  extends React.Component {
    
@@ -37,8 +37,10 @@ export default class AdminComplaintBox  extends React.Component {
         return (
           
           
-
+          
           <div class="container">
+
+            <AdminHeader/>
             <br/>
             <br/>
             <br/>

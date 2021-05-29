@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Report.css';
-
+import AdminHeader from "../AdminHeader";
 
 export default class Report extends React.Component {
     state = {
@@ -42,6 +42,9 @@ export default class Report extends React.Component {
     render() {
         return (
             <div>
+
+
+              <AdminHeader/>
                 <br/>
             <br/>
             <br/>

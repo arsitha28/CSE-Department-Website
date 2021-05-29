@@ -47,6 +47,7 @@ import Year3 from  "./components/Faculty/Year3";
 import Covid from "./components/Covid";
 import FacultyLogin from "./components/FacultyLogin/FacultyLogin";
 import Aboutus from "./components/Aboutus";
+import Logout from "./components/Admin/Logout/Logout";
 
 
 const DefaultContainer = () => (
@@ -98,7 +99,7 @@ const DefaultContainer = () => (
 const AdminContainer = () => (
   <React.Fragment>
 
-    <AdminHeader/>
+    
 
     <Route exact path="/admin/adminheader" component={AdminHeader}/>
     <Route path="/admin/login" exact component={Login} />
@@ -109,6 +110,7 @@ const AdminContainer = () => (
     <Route path="/admin/AlumniForm" exact component={AlumniForm} />
     <Route path="/admin/Announcements" exact component={Announcements} />
     <Route path="/admin/Report" exact component={Reports} />
+    <Route path="/admin/logout" exact component={Logout} />
     
 
   </React.Fragment>
