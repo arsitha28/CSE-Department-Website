@@ -55,35 +55,35 @@ const DefaultContainer = () => (
     <Header/>
         <Route exact path="/" component={Home}/>
         <Route exact path="/header" component={Header}/>
-        <Route exact path="/seminar" component={Seminar}/>
+        <Route exact path="/infrastructure_seminar" component={Seminar}/>
         <Route exact path="/faculty_year1" component={Year1}/>
         <Route exact path="/faculty_year2" component={Year2}/>
         <Route exact path="/faculty_year3" component={Year3}/>
-        <Route exact path="/lab" component={Lab}/>
+        <Route exact path="/infrastructure_labs" component={Lab}/>
         <Route exact path="/developers" component={Developers}/>
         <Route exact path="/complaint" component={ComplaintBox}/>
-        <Route exact path="/ai1" component={Ai1}/>
-        <Route exact path="/ai2" component={Ai2}/>
-        <Route exact path="/ai3" component={Ai3}/>
-        <Route exact path="/ai4" component={Ai4}/>
-        <Route exact path="/cs1" component={Cs1}/>
-        <Route exact path="/cs3" component={Cs3}/>
-        <Route exact path="/cs2" component={Cs2}/>
-        <Route exact path="/cs4" component={Cs4}/>
-        <Route exact path="/cse1" component={Cse1}/>
-        <Route exact path="/cse2" component={Cse2}/>
-        <Route exact path="/cse3" component={Cse3}/>
-        <Route exact path="/cse4" component={Cse4}/>
-        <Route exact path="/ds1" component={Ds1}/>
-        <Route exact path="/ds2" component={Ds2}/>
-        <Route exact path="/ds3" component={Ds3}/>
-        <Route exact path="/ds4" component={Ds4}/>
-        <Route exact path="/firstyear" component={Mfirstyear}/>
-        <Route exact path="/secondyear" component={Msecondyear}/>
+        <Route exact path="/studentcorner_btech_year1_ai" component={Ai1}/>
+        <Route exact path="/studentcorner_btech_year2_ai" component={Ai2}/>
+        <Route exact path="/studentcorner_btech_year3_ai" component={Ai3}/>
+        <Route exact path="/studentcorner_btech_year4_ai" component={Ai4}/>
+        <Route exact path="/studentcorner_btech_year1_cs" component={Cs1}/>
+        <Route exact path="/studentcorner_btech_year3_cs" component={Cs3}/>
+        <Route exact path="/studentcorner_btech_year2_cs" component={Cs2}/>
+        <Route exact path="/studentcorner_btech_year4_cs" component={Cs4}/>
+        <Route exact path="/studentcorner_btech_year1_cse" component={Cse1}/>
+        <Route exact path="/studentcorner_btech_year2_cse" component={Cse2}/>
+        <Route exact path="/studentcorner_btech_year3_cse" component={Cse3}/>
+        <Route exact path="/studentcorner_btech_year4_cse" component={Cse4}/>
+        <Route exact path="/studentcorner_btech_year1_ds" component={Ds1}/>
+        <Route exact path="/studentcorner_btech_year2_ds" component={Ds2}/>
+        <Route exact path="/studentcorner_btech_year3_ds" component={Ds3}/>
+        <Route exact path="/studentcorner_btech_year4_ds" component={Ds4}/>
+        <Route exact path="/studentcorner_mtech_year1" component={Mfirstyear}/>
+        <Route exact path="/studentcorner_mtech_year2" component={Msecondyear}/>
         <Route exact path="/footer" component={Footer}/>
-        <Route exact path="/library" component={Library}/>
-        <Route exact path="/workshops" component={Workshops}/>
-        <Route exact path="/research" component={Research}/>
+        <Route exact path="/infrastructure_library" component={Library}/>
+        <Route exact path="/workshops_year1" component={Workshops}/>
+        <Route exact path="/research_year1" component={Research}/>
         <Route exact path="/alumni" component={Alumni}/>
         <Route exact path="/events" component={Events}/>
         <Route exact path="/covid" component={Covid}/>

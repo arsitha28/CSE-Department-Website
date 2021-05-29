@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link} from 'react-router-dom'
 
 
 
@@ -26,6 +27,7 @@ export default class AdminResearch extends React.Component {
        });
        const body = await response.text();
        this.setState({ responseToPost: body });
+       alert("new entry added");
      };
    
        render() {
@@ -56,7 +58,6 @@ export default class AdminResearch extends React.Component {
    
    
      <button type="submit" onClick={this.onSubmit} class="btn btn-outline-success">ADD NEW ENTRY</button>
-   
      </form>
     
      </section>
