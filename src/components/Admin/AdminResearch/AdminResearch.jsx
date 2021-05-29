@@ -27,6 +27,7 @@ export default class AdminResearch extends React.Component {
        });
        const body = await response.text();
        this.setState({ responseToPost: body });
+       alert("new entry added");
      };
    
        render() {
@@ -57,8 +58,6 @@ export default class AdminResearch extends React.Component {
    
    
      <button type="submit" onClick={this.onSubmit} class="btn btn-outline-success">ADD NEW ENTRY</button>
-     <Link to="/" onClick={this.onSubmit} class="btn btn-outline-success" >ADD NEW ENTRY Demo</Link>
-   
      </form>
     
      </section>
