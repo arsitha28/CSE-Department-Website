@@ -28,7 +28,6 @@ export default class Research extends React.Component {
        <td width="20%">{item.paper}</td>
         <td width="20%">{item.domain}</td>
         <td width="20%">{item.publisher}</td></tr>
-      
     ));
   }
 

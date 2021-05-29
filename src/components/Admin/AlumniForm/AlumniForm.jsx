@@ -37,6 +37,7 @@ export default class AlumniForm extends React.Component {
               <br/>
               <div class="container">
                             <form  onSubmit={this.handleSubmit}>
+                              <h1> Add Alumni entry</h1>
                   <div class="form-group">
                       <label for="inputname">Name</label>
                       <input type="text" class="form-control" id="inputname" placeholder="Name" value={this.state.post}

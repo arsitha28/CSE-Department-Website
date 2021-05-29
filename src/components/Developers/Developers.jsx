@@ -21,7 +21,7 @@ export default class Developers extends React.Component {
 
                             <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                                 <div class="member">
-                                    <img src="assets/images/afroz_sir.jpg" class="img-fluid" alt=""/>
+                                    <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
                                     <div class="member-info">
                                         <div class="member-info-content">
                                         <h4>Mentor Name</h4>
@@ -49,7 +49,7 @@ export default class Developers extends React.Component {
 
                         <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                             <div class="member">
-                                <img src="assets/images/porfolio-01.jpg" class="img-fluid" alt=""/>
+                                <img src="assets/images/porfolio-01.jpg" height="1000px" width="1000px" class="img-fluid" alt=""/>
                                 <div class="member-info">
                                     <div class="member-info-content">
                                     <h4>Developer</h4>

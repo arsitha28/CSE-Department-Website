@@ -11,7 +11,8 @@ export default class AdminResearch extends React.Component {
     domain:'',
     publisher:'',
     responseToPost:'',
-    response:''
+    response:'',
+    year:''
      };
    
    
@@ -22,7 +23,7 @@ export default class AdminResearch extends React.Component {
          headers: {
            'Content-Type': 'application/json',
          },
-         body: JSON.stringify({ post: [this.state.faculty_name, this.state.paper, this.state.domain, this.state.publisher]}),
+         body: JSON.stringify({ post: [this.state.faculty_name, this.state.paper, this.state.domain, this.state.publisher, this.state.year]}),
        });
        const body = await response.text();
        this.setState({ responseToPost: body });
@@ -31,11 +32,14 @@ export default class AdminResearch extends React.Component {
        render() {
            return (
                <div class="container">
+
+             
          
    <section id="secA">
    <p>{this.state.response}</p>
+
    
-   
+   <h1>Add Research Entry</h1>
    <form  onSubmit={this.handleSubmit}>
    
    <label for="Faculty Name" class="mr-sm-2">Faculty Name:</label>
@@ -53,6 +57,10 @@ export default class AdminResearch extends React.Component {
    <label for="From_Date" class="mr-sm-2">Publisher:</label>
      <input type="text" class="form-control mb-2 mr-sm-3" placeholder="publisher" id="From" value={this.state.post}
                onChange={e => this.setState({publisher: e.target.value })}/>
+
+<label for="From_Date" class="mr-sm-2">Year:</label>
+     <input type="text" class="form-control mb-2 mr-sm-3" placeholder="year" id="year" value={this.state.post}
+               onChange={e => this.setState({year: e.target.value })}/>
    
    
      <button type="submit" onClick={this.onSubmit} class="btn btn-outline-success">ADD NEW ENTRY</button>

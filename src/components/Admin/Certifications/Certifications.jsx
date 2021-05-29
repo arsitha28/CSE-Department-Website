@@ -63,7 +63,7 @@ export default class Certifications extends React.Component {
                                             <div class="card mb-0">
                                                 <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
                                                     
-                                                    <a class="card-title">
+                                                    <a class="card-title" >
                                                         Add Certifications
                                                     </a>
                                                 </div>
@@ -87,14 +87,14 @@ export default class Certifications extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row gutters">
+                                {/* <div class="row gutters">
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="text-right">
                                             <button type="button" id="submit" name="submit" class="btn btn-secondary">Cancel</button>
                                             <button type="button" id="submit" name="submit" class="btn btn-primary">Update</button>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

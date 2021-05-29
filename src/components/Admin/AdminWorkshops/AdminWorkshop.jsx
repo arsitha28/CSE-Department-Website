@@ -46,7 +46,7 @@ export default class AdminWorkshop extends React.Component {
 <section id="secA">
 <p>{this.state.response}</p>
 
-
+<h1>Add Workshop Entry</h1>
 <form  onSubmit={this.handleSubmit}>
 
 <label for="Faculty Name" class="mr-sm-2">Faculty Name:</label>
@@ -69,6 +69,7 @@ export default class AdminWorkshop extends React.Component {
   <input type="text" class="form-control mb-2 mr-sm-3" placeholder="YYYY-MM-DD" id="To" value={this.state.post}
             onChange={e => this.setState({to: e.target.value })
             }/>
+
 
   <button type="submit" onClick={this.onSubmit} class="btn btn-outline-success">ADD NEW ENTRY</button>
 

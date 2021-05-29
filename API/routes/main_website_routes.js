@@ -105,7 +105,7 @@ app.get('/research',function(req,res,next){
 
  app.post('/complaint', function (req, res) {
         var result= req.body.post;
-    
+    console.log(result);
     var mysql = require('mysql');
     var con = mysql.createConnection({
         host: "localhost",
