@@ -92,6 +92,8 @@ export default class Header extends React.Component {
                     <h1> Announcements</h1>
                         {this.renderItems()}
 
+            
+
                     <section class="page-section clearfix">
                     <div class="container">
                         <div class="intro">
@@ -107,12 +109,14 @@ export default class Header extends React.Component {
                         </div>
                         </div>
                     </div>
+
                     </section>
 
 
-
+                    
                     <div id="demo" class="carousel slide" data-ride="carousel">
 
+                    
                     <div class="general-title">
                         <h3>STRENGTHS OF THE DEPARTMENT</h3>
                         <hr/>

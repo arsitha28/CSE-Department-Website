@@ -1,8 +1,28 @@
-.content ul {
-    list-style-type:none;
+
+  .container .nodots
+  {
+      list-style-type: none;
+      
+  }
+
+  .nodots ul {
+    list-style: none;
+    float: left;
+    margin: 0;
+    
+}
+.nodots ul li
+{
+    float: left;
+    width: 100px;
+    line-height: 80px;
+    vertical-align:initial;
+    text-align:left;
+    margin: 0;
+}
+.nodots ul li a {
+    width: 100px;
+    
+    color: #FFFFFF;
 }
 
-.nodots{
-    align-items: left;
-
-}

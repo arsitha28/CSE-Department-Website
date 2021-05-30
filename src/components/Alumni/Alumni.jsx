@@ -48,7 +48,17 @@ export default class Alumni extends React.Component {
           <td width="20%"><b>Year of passing out </b></td>
           <td width="20%"><b>Currently pursuing</b></td></tr>
           {this.renderItems()}
-          </table></div>
+          </table>
+          
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+          </div>
         )
     }
 }

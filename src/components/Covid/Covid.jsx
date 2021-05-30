@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 export default class Covid extends React.Component {
     render() {
         return (
@@ -32,7 +33,7 @@ export default class Covid extends React.Component {
                                 <div class="row col-12 col-sm" data-aos="zoom-in" data-aos-delay="100">
                                 
                                     <img
-                                    class="img1"
+                                    class="img2"
                                     src="assets/images/model-img04.jpg"
                                     height="300px"
                                     width="300px"
@@ -64,7 +65,7 @@ export default class Covid extends React.Component {
                                 <div class="row col-12 col-sm" data-aos="zoom-in" data-aos-delay="100">
                                 
                                     <img
-                                    class="img1"
+                                    class="img2"
                                     src="assets/images/model-img04.jpg"
                                     height="300px"
                                     width="300px"

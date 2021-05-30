@@ -48,6 +48,7 @@ import Covid from "./components/Covid";
 import FacultyLogin from "./components/FacultyLogin/FacultyLogin";
 import Aboutus from "./components/Aboutus";
 import Logout from "./components/Admin/Logout/Logout";
+import Facultyregistration from "./components/Facultyregistration/Facultyregistration";
 
 
 const DefaultContainer = () => (
@@ -122,7 +123,7 @@ const FacultyContainer = () => (
     
 
     <Route exact path="/faculty/login" component={FacultyLogin}/>
-    
+    <Route exact path="/faculty/registration" component={Facultyregistration}/>
     <Route path="/faculty/Certifications" exact component={Certifications} />
 
   </React.Fragment>

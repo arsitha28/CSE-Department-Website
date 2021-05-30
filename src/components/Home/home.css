@@ -952,9 +952,9 @@ small {
 }
 
 .alert {
-  background-color: #c0afaf;
+  background-color: #133b5c;
   opacity: 0.9;
 }
 .alert .alert-link {
-  color: rgb(2, 2, 2);
+  color: rgb(253, 253, 253);
 }
