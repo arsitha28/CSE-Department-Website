@@ -23,6 +23,7 @@ export default class ComplaintBox extends React.Component {
         });
         const body = await response.text();
         this.setState({ responseToPost: body });
+        alert("entry recorded");
       };
     
 

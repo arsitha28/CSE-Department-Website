@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './research.css';
 
 
-export default class Research extends React.Component {
+export default class Research_year extends React.Component {
   
   state = {
     itemList: [
@@ -12,7 +12,7 @@ export default class Research extends React.Component {
   };
   
   classAPI(){
-    fetch("http://localhost:9000/mainWebsiteAPI/research")
+    fetch("http://localhost:9000/mainWebsiteAPI/research_year2")
     .then(res => res.json())
     .then(res=>this.setState({itemList:res}));
   }
@@ -43,7 +43,7 @@ export default class Research extends React.Component {
             <br/>
 
             <div class="section-title" data-aos="fade-up" >
-              <h1>Research</h1>
+              <h1>Research in 2020</h1>
               <hr/>
                         
             </div>

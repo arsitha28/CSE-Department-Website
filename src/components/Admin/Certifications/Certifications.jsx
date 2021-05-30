@@ -79,9 +79,7 @@ export default class Certifications extends React.Component {
                                                     </div>
                                                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                         <div class="form-group" style={{marginTop:'40px'}}>
-                                                            <form method="post" enctype="multipart/form-data"> <input type="file" id="image" name="image" multiple="multiple" />
-                                                                <input type="submit" value="Upload Image" class="btn btn-lg btn-primary"  style={{marginTop:'40px',marginLeft:'40px'}}/> 
-                                                            </form>
+                                            
                                                         </div>
                                                     </div>
                                                 </div>

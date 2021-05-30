@@ -1,9 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import'bootstrap/dist/js/bootstrap.bundle.min';
+import './research.css';
 
-export default class Workshops extends React.Component {
 
+export default class Research_year extends React.Component {
+  
   state = {
     itemList: [
    
@@ -11,7 +12,7 @@ export default class Workshops extends React.Component {
   };
   
   classAPI(){
-    fetch("http://localhost:9000/mainWebsiteAPI/workshop_year1")
+    fetch("http://localhost:9000/mainWebsiteAPI/research_year1")
     .then(res => res.json())
     .then(res=>this.setState({itemList:res}));
   }
@@ -23,11 +24,10 @@ export default class Workshops extends React.Component {
   renderItems() {
     return this.state.itemList.map(item => (
      
-        <tr> <td width="20%">{item.faculty_name}</td>
-       <td width="20%">{item.title}</td>
+        <tr><td width="20%">{item.faculty_name}</td>
+       <td width="20%">{item.paper}</td>
         <td width="20%">{item.domain}</td>
-        <td width="20%">{item.from_date}</td>
-        <td width="20%">{item.to}</td></tr>
+        <td width="20%">{item.publisher}</td></tr>
       
     ));
   }
@@ -43,18 +43,15 @@ export default class Workshops extends React.Component {
             <br/>
 
             <div class="section-title" data-aos="fade-up" >
-              <h1>Workshop held in 2021</h1>
+              <h1>Research in 2021</h1>
               <hr/>
                         
             </div>
-
             <table class="table table-hover">
             <tr><td width="20%"><b>Faculty Name</b></td>
-            <td width="20%"><b>Title</b></td>
+            <td width="20%"><b>Title of paper</b></td>
             <td width="20%"><b>Domain </b></td>
-            <td width="20%"><b>Start Date</b></td>
-             <td width="20%"><b>End Date</b></td></tr>
-            
+            <td width="20%"><b>publisher</b></td></tr>
             {this.renderItems()}
             </table></div>
 

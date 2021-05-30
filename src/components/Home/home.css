@@ -634,7 +634,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family:Helvetica,Arial,sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 p {
   line-height: 1.75;
@@ -953,7 +953,7 @@ small {
 
 .alert {
   background-color: #c0afaf;
-  opacity: 0.9;
+  opacity: 1;
 }
 .alert .alert-link {
   color: rgb(2, 2, 2);

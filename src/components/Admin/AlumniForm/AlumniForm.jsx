@@ -24,6 +24,7 @@ export default class AlumniForm extends React.Component {
            });
            const body = await response.text();
            this.setState({ responseToPost: body });
+           alert("entry recorded");
          };
 
     render() {
@@ -34,7 +35,12 @@ export default class AlumniForm extends React.Component {
               <br/>
               <br/>
               <br/>
+
               <br/>
+              <div class="section-title" data-aos="fade-up" >
+    <h3>Add alumni entry</h3>
+    <hr/>
+    </div>
               <div class="container">
                             <form  onSubmit={this.handleSubmit}>
                   <div class="form-group">

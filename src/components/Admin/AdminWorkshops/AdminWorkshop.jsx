@@ -35,6 +35,7 @@ export default class AdminWorkshop extends React.Component {
     });
     const body = await response.text();
     this.setState({ responseToPost: body });
+    alert("entry recorded");
   };
 
     render() {
@@ -45,8 +46,13 @@ export default class AdminWorkshop extends React.Component {
 
               <section id="secA">
               <p>{this.state.response}</p>
+              <br/>
 
-
+              <div class="section-title" data-aos="fade-up" >
+    <h3>Add workshop entry</h3>
+    <hr/>
+    </div>
+            <br/>
               <form  onSubmit={this.handleSubmit}>
 
               <label for="Faculty Name" class="mr-sm-2">Faculty Name:</label>

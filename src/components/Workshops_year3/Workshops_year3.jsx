@@ -11,7 +11,7 @@ export default class Workshops extends React.Component {
   };
   
   classAPI(){
-    fetch("http://localhost:9000/mainWebsiteAPI/workshop_year1")
+    fetch("http://localhost:9000/mainWebsiteAPI/workshop_year3")
     .then(res => res.json())
     .then(res=>this.setState({itemList:res}));
   }
@@ -43,7 +43,7 @@ export default class Workshops extends React.Component {
             <br/>
 
             <div class="section-title" data-aos="fade-up" >
-              <h1>Workshop held in 2021</h1>
+              <h1>Workshop held in 2019</h1>
               <hr/>
                         
             </div>

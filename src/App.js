@@ -29,8 +29,12 @@ import AdminHeader from "./components/Admin/AdminHeader";
 import Login from "./components/Admin/Login/Login";
 import Seminar from "./components/Seminar";
 import Library from "./components/Library";
-import Research from "./components/Research";
-import Workshops from "./components/Workshops";
+import research_year3 from "./components/Research";
+import research_year1 from "./components/Research_year1";
+import research_year2 from "./components/Research_year2";
+import workshops_year1 from "./components/Workshops";
+import workshops_year2 from "./components/Workshops_year2";
+import workshops_year3 from "./components/Workshops_year3";
 import Alumni from "./components/Alumni";
 import Events from "./components/Events";
 import Lab from "./components/Lab";
@@ -83,8 +87,12 @@ const DefaultContainer = () => (
         <Route exact path="/studentcorner_mtech_year2" component={Msecondyear}/>
         <Route exact path="/footer" component={Footer}/>
         <Route exact path="/infrastructure_library" component={Library}/>
-        <Route exact path="/workshops_year1" component={Workshops}/>
-        <Route exact path="/research_year1" component={Research}/>
+        <Route exact path="/workshops_year1" component={workshops_year1}/>
+        <Route exact path="/workshops_year2" component={workshops_year2}/>
+        <Route exact path="/workshops_year3" component={workshops_year3}/>
+        <Route exact path="/research_year3" component={research_year3}/>
+        <Route exact path="/research_year1" component={research_year1}/>
+        <Route exact path="/research_year2" component={research_year2}/>
         <Route exact path="/alumni" component={Alumni}/>
         <Route exact path="/events" component={Events}/>
         <Route exact path="/covid" component={Covid}/>

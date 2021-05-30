@@ -5,22 +5,6 @@ import AdminHeader from "../AdminHeader";
 
 export default class AdminResearch extends Component {
 
-  constructor(props)
-  {
-    super(props)
-    const token = localStorage.getItem("token")
-
-    let loggedIn = true
-
-    if(token == null)
-    {
-      loggedIn = false
-    }
-
-    this.state = {
-      loggedIn
-    }
-  }
 
   state = {
     faculty_name :'',
@@ -28,7 +12,8 @@ export default class AdminResearch extends Component {
     domain:'',
     publisher:'',
     responseToPost:'',
-    response:''
+    response:'',
+    year : ''
      };
    
    
@@ -39,18 +24,14 @@ export default class AdminResearch extends Component {
          headers: {
            'Content-Type': 'application/json',
          },
-         body: JSON.stringify({ post: [this.state.faculty_name, this.state.paper, this.state.domain, this.state.publisher]}),
+         body: JSON.stringify({ post: [this.state.faculty_name, this.state.paper, this.state.domain, this.state.publisher, this.state.year]}),
        });
        const body = await response.text();
        this.setState({ responseToPost: body });
+       alert("entry recorded");
      };
    
        render() {
-
-        if(this.state.loggedIn == false)
-        {
-          return <Redirect to="/admin/adminheader" />
-        }
            return (
                <div class="container">
 
@@ -59,6 +40,13 @@ export default class AdminResearch extends Component {
                 <br/>
                 
               <section id="secA">
+                
+<div class="section-title" data-aos="fade-up" >
+    <h3>Add research entry</h3>
+    <hr/>
+                     
+</div>
+
                 <p>{this.state.response}</p>
                 
                 
@@ -79,6 +67,11 @@ export default class AdminResearch extends Component {
                   <label for="From_Date" class="mr-sm-2">Publisher:</label>
                     <input type="text" class="form-control mb-2 mr-sm-3" placeholder="publisher" id="From" value={this.state.post}
                               onChange={e => this.setState({publisher: e.target.value })}/>
+                  
+                    
+                  <label for="year" class="mr-sm-2">Year of publishing:</label>
+                    <input type="text" class="form-control mb-2 mr-sm-3" placeholder="YYYY" id="From" value={this.state.post}
+                              onChange={e => this.setState({year: e.target.value })}/>
                   
                   
                     <button type="submit" onClick={this.onSubmit} class="btn btn-outline-success">ADD NEW ENTRY</button>

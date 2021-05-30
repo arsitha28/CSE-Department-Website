@@ -20,6 +20,7 @@ export default class Announcements extends React.Component {
         });
         const body = await response.text();
         this.setState({ responseToPost: body });
+        alert("entry recorded");
       };
     
 
@@ -37,8 +38,11 @@ export default class Announcements extends React.Component {
               <form onSubmit={this.handleSubmit}>
               <div class="container">  
               <div class="form-group">
-         
-              <label for="Announcement">Announcement</label>
+              <div class="section-title" data-aos="fade-up" >
+    <h3>Add new announcement</h3>
+    <hr/>
+    </div>
+              
                <textarea class="form-control" rows="5" id="Announcement" value={this.state.post}
             onChange={e => this.setState({announcement: e.target.value })}></textarea>
                 </div>

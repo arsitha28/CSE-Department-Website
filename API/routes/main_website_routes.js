@@ -7,47 +7,167 @@ var bodyParser = require('body-parser');
 app.use(express.json()) // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.get('/workshop',function(req,res,next){
+
+app.get('/workshop_year1',function(req,res,next){
     
-var mysql = require('mysql');
-var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "manager",
-    database: "sys"
-  });
-  
-  con.connect(function(err) {
-    if (err) throw err;
-    con.query("SELECT * FROM sys.workshop", function (err, result, fields) {
+  var mysql = require('mysql');
+  var con = mysql.createConnection({
+      host: "localhost",
+      user: "root",
+      password: "manager",
+      database: "sys"
+    });
+    
+    var sql="SELECT * FROM sys.workshop where YEAR(from_date) = ?";
+
+   var value=[2021];
+
+ con.connect(function(err) {
+   if (err) throw err;
+con.query(sql,[value] ,function (err, result, fields) {
+  if (err) throw err;
+  console.log(result);
+  res.send(result);
+});
+});
+
+
+    });
+
+    app.get('/workshop_year2',function(req,res,next){
+    
+      var mysql = require('mysql');
+      var con = mysql.createConnection({
+          host: "localhost",
+          user: "root",
+          password: "manager",
+          database: "sys"
+        });
+        
+        var sql="SELECT * FROM sys.workshop where YEAR(from_date) =?";
+    
+       var value=[2020];
+    
+     con.connect(function(err) {
+       if (err) throw err;
+    con.query(sql,[value] ,function (err, result, fields) {
       if (err) throw err;
       console.log(result);
       res.send(result);
-    
     });
-  });
-});
-
-app.get('/research',function(req,res,next){
+    });
     
-    var mysql = require('mysql');
-    var con = mysql.createConnection({
-        host: "localhost",
-        user: "root",
-        password: "manager",
-        database: "sys"
-      });
-      
-      con.connect(function(err) {
-        if (err) throw err;
-        con.query("SELECT * FROM sys.research", function (err, result, fields) {
+    
+        });
+
+        app.get('/workshop_year3',function(req,res,next){
+    
+          var mysql = require('mysql');
+          var con = mysql.createConnection({
+              host: "localhost",
+              user: "root",
+              password: "manager",
+              database: "sys"
+            });
+            
+            
+            var sql="SELECT * FROM sys.workshop where YEAR(from_date)=?";
+        
+           var value=[2019];
+        
+         con.connect(function(err) {
+           if (err) throw err;
+        con.query(sql,[value] ,function (err, result, fields) {
           if (err) throw err;
           console.log(result);
           res.send(result);
-        
         });
+        });
+        
+        
+            });
+
+
+app.get('/research_year1',function(req,res,next){
+    
+  var mysql = require('mysql');
+  var con = mysql.createConnection({
+      host: "localhost",
+      user: "root",
+      password: "manager",
+      database: "sys"
+    });
+    
+    var sql="SELECT * FROM sys.research where year=(?)";
+
+   var value=[2021];
+
+ con.connect(function(err) {
+   if (err) throw err;
+con.query(sql,[value] ,function (err, result, fields) {
+  if (err) throw err;
+  console.log(result);
+  res.send(result);
+});
+});
+
+
+    });
+
+    app.get('/research_year2',function(req,res,next){
+    
+      
+      var mysql = require('mysql');
+      var con = mysql.createConnection({
+          host: "localhost",
+          user: "root",
+          password: "manager",
+          database: "sys"
+        });
+        
+        var sql="SELECT * FROM sys.research where year=(?)";
+
+       var value=[2020];
+
+     con.connect(function(err) {
+       if (err) throw err;
+    con.query(sql,[value] ,function (err, result, fields) {
+      if (err) throw err;
+      console.log(result);
+      res.send(result);
+    });
+  });
+
+
+      });
+
+      app.get('/research_year3',function(req,res,next){
+    
+        var mysql = require('mysql');
+        var con = mysql.createConnection({
+            host: "localhost",
+            user: "root",
+            password: "manager",
+            database: "sys"
+          });
+          
+          var sql="SELECT * FROM sys.research where year=(?)";
+
+         var value=[2019];
+
+       con.connect(function(err) {
+         if (err) throw err;
+      con.query(sql,[value] ,function (err, result, fields) {
+        if (err) throw err;
+        console.log(result);
+        res.send(result);
       });
     });
+
+
+  });
+  
+  
 
  app.post('/complaint', function (req, res) {
         var result= req.body.post;
@@ -81,27 +201,6 @@ app.get('/research',function(req,res,next){
     
       });
     
-
-app.get('/research',function(req,res,next){
-    
-    var mysql = require('mysql');
-    var con = mysql.createConnection({
-        host: "localhost",
-        user: "root",
-        password: "manager",
-        database: "sys"
-      });
-      
-      con.connect(function(err) {
-        if (err) throw err;
-        con.query("SELECT * FROM sys.research", function (err, result, fields) {
-          if (err) throw err;
-          console.log(result);
-          res.send(result);
-        
-        });
-      });
-    });
 
  app.post('/complaint', function (req, res) {
         var result= req.body.post;

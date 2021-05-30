@@ -70,7 +70,8 @@ var con = mysql.createConnection({
     result[0], 
     result[1], 
     result[2],
-    result[3]
+    result[3],
+    result[4]
   ];
   con.query(sql, [values], function (err, result) {
     if (err) throw err;
@@ -104,7 +105,7 @@ app.get('/complaint',function(req,res,next){
 
 
 
-  app.post('/report', function (req, res) {
+  app.post('/report_certificate', function (req, res) {
     var result= req.body.post;
 
     var mysql = require('mysql');
@@ -116,6 +117,60 @@ app.get('/complaint',function(req,res,next){
     });
 
     var sql="SELECT * FROM sys.report where certificate like (?)";
+
+    var value=[result[0]];
+
+    con.connect(function(err) {
+      if (err) throw err;
+      con.query(sql,[value] ,function (err, result, fields) {
+        if (err) throw err;
+        console.log(result);
+        res.send(result);
+      });
+    });
+
+
+  });
+
+  app.post('/report_workshop', function (req, res) {
+    var result= req.body.post;
+
+    var mysql = require('mysql');
+  var con = mysql.createConnection({
+      host: "localhost",
+      user: "root",
+      password: "manager",
+      database: "sys"
+    });
+
+    var sql="SELECT * FROM sys.workshop where YEAR(from_date)=?";
+
+    var value=[result[0]];
+
+    con.connect(function(err) {
+      if (err) throw err;
+      con.query(sql,[value] ,function (err, result, fields) {
+        if (err) throw err;
+        console.log(result);
+        res.send(result);
+      });
+    });
+
+
+  });
+
+  app.post('/report_research', function (req, res) {
+    var result= req.body.post;
+
+    var mysql = require('mysql');
+  var con = mysql.createConnection({
+      host: "localhost",
+      user: "root",
+      password: "manager",
+      database: "sys"
+    });
+
+    var sql="SELECT * FROM sys.research where year=?";
 
     var value=[result[0]];
 
