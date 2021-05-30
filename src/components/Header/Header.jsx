@@ -11,12 +11,17 @@ export default class Header extends React.Component {
                 <header id="header" className="fixed-top">
                     <div className="container d-flex align-items-center">
 
-                        <a href="/" className="logo mr-auto"><img src="assets/images/cvrlogo.png" alt="" className="img-fluid"/></a>
+                        <a href="/" className="logo mr-auto"  style={{marginLeft:"-18px"}}><img src="assets/images/cvrlogo.png" alt="" className="img-fluid"/></a>
                         
                             <nav className="nav-menu d-none d-lg-block">
 
                                 <ul>
-                                    <li className="active"><a href="/" styleprop="text-decoration: none;">Home</a></li>
+                                    <li className="active drop-down"><a href="/" styleprop="text-decoration: none;">Home</a>
+                                    <ul>
+                                        <li><a href="/about" styleprop="text-decoration: none;">About</a></li>
+                                    </ul>
+                                    </li>
+                                    
                                     <li className="drop-down"><a href="/" styleprop="text-decoration: none;">Faculty</a>
                                     <ul>
                                         <li><a href="/faculty_year1" styleprop="text-decoration: none;">2021</a></li>

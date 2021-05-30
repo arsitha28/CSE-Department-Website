@@ -32,11 +32,11 @@ export default class Footer extends React.Component {
                         <h4>Useful Links</h4>
                         <ul>
                           <li><a href="/">Home</a></li>
-                          <li><a href="/year1">Faculty</a></li>
-                          <li><a href="/lab">Infrastructure</a></li>
-                          <li><a href="/research">Research</a></li>
-                          <li><a href="/workshops">Workshops</a></li>
-                          <li><a href="/fourthyear">Student Corner</a></li>
+                          <li><a href="/faculty_year1">Faculty</a></li>
+                          <li><a href="/infrastructure_labs">Infrastructure</a></li>
+                          <li><a href="/research_year1">Research</a></li>
+                          <li><a href="/workshops_year1">Workshops</a></li>
+                          <li><a href="/studentcorner_btech_year1_cse">Student Corner</a></li>
                           <li><a href="/alumni">Alumini</a></li>
                           <li><a href="/developers">Developers</a></li>
                           <li><a href="http://cvr.ac.in/home4/">College Website</a></li>

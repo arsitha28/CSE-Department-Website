@@ -56,7 +56,18 @@ export default class Workshops extends React.Component {
              <td width="20%"><b>End Date</b></td></tr>
             
             {this.renderItems()}
-            </table></div>
+            </table>
+            
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            </div>
 
         )
     }
