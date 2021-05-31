@@ -25,7 +25,7 @@ export default class Cse4 extends React.Component {
                         <div class="d-flex text-muted pt-3">
                         
                         <p class="pb-3 mb-0 small lh-sm border-bottom">
-                            <strong class="d-block text-gray-dark"><a href="#">click to view Academic calender</a></strong>
+                            <strong class="d-block text-gray-dark"><a href="https://drive.google.com/file/d/1xSmZA_iU42s7MQstKV0Wn2-rDo7u4mYI/view?usp=drivesdk">click to view Academic calender</a></strong>
                             
                         </p>
                         </div>
