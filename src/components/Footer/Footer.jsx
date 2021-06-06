@@ -37,7 +37,7 @@ export default class Footer extends React.Component {
                           <li><a href="/research_year1">Research</a></li>
                           <li><a href="/workshops_year1">Workshops</a></li>
                           <li><a href="/studentcorner_btech_year1_cse">Student Corner</a></li>
-                          <li><a href="/alumni">Alumini</a></li>
+                          <li><a href="/alumni">Alumni</a></li>
                           <li><a href="/developers">Developers</a></li>
                           <li><a href="http://cvr.ac.in/home4/">College Website</a></li>
                         </ul>

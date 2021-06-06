@@ -32,16 +32,16 @@ export default class Lab extends React.Component {
     </p> </Fade>
   
    <Fade left> <ul class="nodots">
-      <li class="nodots"><i class="ri-check-double-line mb-0 float-left"></i><a class="text-left">1. Create “Hello World” application .</a></li>
-      <li class="nodots"><i class="ri-check-double-line mb-0 float-left"></i><a class="text-left">2. To understand Activity and Intent</a></li>
-      <li class="nodots"><i class="ri-check-double-line mb-0 float-left"></i><a class="text-left">3. Create login application where you will have to validate EmailID (Username) till the username and password is not validated, login button should remain disabled.</a></li>
-      <li class="nodots"><i class="ri-check-double-line mb-0 float-left"></i><a class="text-left">4. Create a login application as above and on successful login, open browser with any URL.</a></li>
-      <li class="nodots"><i class="ri-check-double-line mb-0 float-left"></i><a class="text-left">5. Demonstrate the concept of passing data through intents by developing an application.</a></li>
-      <li class="nodots"><i class="ri-check-double-line mb-0 float-left"></i><a class="text-left">6. Create spinner with strings taken from resource folder</a></li>
-      <li class="nodots"><i class="ri-check-double-line mb-0 float-left"></i><a class="text-left">7.Implement menu options. Create an application that will change color of the screen based on selected options from menu.</a></li>
-      <li class="nodots"><i class="ri-check-double-line mb-0 float-left"></i><a class="text-left">8. Demonstrate the process of displaying toast (message) on specific interval of time.</a></li>
-      <li class="nodots"><i class="ri-check-double-line mb-0 float-left"></i><a class="text-left">9. Implement a background application that will open activity on specific time.</a></li>
-      <li class="nodots"><i class="ri-check-double-line mb-0 float-left"></i><a class="text-left">10. Demonstrate the use of shared preferences object.</a></li>
+      <li class="nodots"><i class=" mb-0 float-left"></i><a class="text-left">1. Create “Hello World” application .</a></li>
+      <li class="nodots"><i class=" mb-0 float-left"></i><a class="text-left">2. To understand Activity and Intent</a></li>
+      <li class="nodots"><i class=" mb-0 float-left"></i><a class="text-left">3. Create login application where you will have to validate EmailID (Username) till the username and password is not validated, login button should remain disabled.</a></li>
+      <li class="nodots"><i class=" mb-0 float-left"></i><a class="text-left">4. Create a login application as above and on successful login, open browser with any URL.</a></li>
+      <li class="nodots"><i class=" mb-0 float-left"></i><a class="text-left">5. Demonstrate the concept of passing data through intents by developing an application.</a></li>
+      <li class="nodots"><i class=" mb-0 float-left"></i><a class="text-left">6. Create spinner with strings taken from resource folder</a></li>
+      <li class="nodots"><i class=" mb-0 float-left"></i><a class="text-left">7.Implement menu options. Create an application that will change color of the screen based on selected options from menu.</a></li>
+      <li class="nodots"><i class=" mb-0 float-left"></i><a class="text-left">8. Demonstrate the process of displaying toast (message) on specific interval of time.</a></li>
+      <li class="nodots"><i class=" mb-0 float-left"></i><a class="text-left">9. Implement a background application that will open activity on specific time.</a></li>
+      <li class="nodots"><i class=" mb-0 float-left"></i><a class="text-left">10. Demonstrate the use of shared preferences object.</a></li>
       
 
     </ul> </Fade>
