@@ -34,7 +34,7 @@ export default class Covid extends React.Component {
                                 
                                     <img
                                     class="img2"
-                                    src="assets/images/model-img04.jpg"
+                                    src="assets/images/model-img1.jpg"
                                     height="300px"
                                     width="300px"
                                 />
@@ -66,7 +66,7 @@ export default class Covid extends React.Component {
                                 
                                     <img
                                     class="img2"
-                                    src="assets/images/model-img04.jpg"
+                                    src="assets/images/model-img1.jpg"
                                     height="300px"
                                     width="300px"
                                 />

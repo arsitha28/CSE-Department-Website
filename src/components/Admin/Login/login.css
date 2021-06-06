@@ -1,9 +1,4 @@
-/*
- * Specific styles of signin component
- */
-/*
- * General styles
- */
+
 
 .card-container.card {
   max-width: 350px;
@@ -73,14 +68,12 @@
   box-sizing: border-box;
 }
 
-.form-signin #inputEmail,
 .form-signin #inputPassword {
   direction: ltr;
   height: 44px;
   font-size: 16px;
 }
 
-.form-signin input[type="email"],
 .form-signin input[type="password"],
 .form-signin input[type="text"],
 .form-signin button {
@@ -126,12 +119,3 @@
   background-color: #8ab6d6;
 }
 
-.forgot-password {
-  color: rgb(104, 145, 162);
-}
-
-.forgot-password:hover,
-.forgot-password:active,
-.forgot-password:focus {
-  color: rgb(12, 97, 33);
-}

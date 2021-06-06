@@ -1,6 +1,4 @@
-/*
- * Specific styles of signin component
- */
+
 /*
  * General styles
  */
@@ -72,15 +70,13 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  
-  .form-signup #inputEmail,
+ 
   .form-signup #inputPassword {
     direction: ltr;
     height: 44px;
     font-size: 16px;
   }
   
-  .form-signup input[type="email"],
   .form-signup input[type="password"],
   .form-signup input[type="text"],
   .form-signup button {
@@ -126,13 +122,4 @@
     background-color: #8ab6d6;
   }
   
-  .forgot-password {
-    color: rgb(104, 145, 162);
-  }
-  
-  .forgot-password:hover,
-  .forgot-password:active,
-  .forgot-password:focus {
-    color: rgb(12, 97, 33);
-  }
-  
+ 

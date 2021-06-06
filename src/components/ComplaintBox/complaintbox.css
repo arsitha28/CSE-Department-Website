@@ -1,61 +1,9 @@
-/*--------------------------------------------------------------
-  # Disable AOS delay on mobile
-  --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
 
-@media screen and (max-width: 550px) {
-  .head {
-    margin-top: 50px;
-    margin-left: 2px;
-    font-size: 18px;
-    text-align: center;
-  }
-  .img1 {
-    margin-left: 5px;
-    height: 55px;
-    width: 55px;
-  }
-
-  @media screen and (max-width: 400px) {
-    .head {
-      margin-top: 50px;
-      margin-left: 2px;
-      font-size: 14px;
-      text-align: center;
-    }
-    .img1 {
-      margin-left: 5px;
-      height: 50px;
-      width: 50px;
-    }
-  }
-
-  @media screen and (max-width: 280px) {
-    .head {
-      margin-top: 50px;
-      margin-left: -2 px;
-      font-size: 12px;
-      text-align: center;
-    }
-    .img1 {
-      margin-left: -5px;
-      height: 50px;
-      width: 50px;
-    }
-  }
-}
 
 .card-body {
   margin-left: 80px;
 }
 
-/*--------------------------------------------------------------
-# Contact Us
---------------------------------------------------------------*/
 #cover {
   background: rgb(246, 242, 242) center center no-repeat;
   background-size: cover;
