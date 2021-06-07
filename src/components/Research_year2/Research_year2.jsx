@@ -17,7 +17,7 @@ export default class Research_year extends React.Component {
     this.classAPI();
   }
 
-  renderItems() {
+  renderValues() {
     return this.state.list.map((value) => (
       <tr>
         <td width="20%">{value.faculty_name}</td>
@@ -55,7 +55,7 @@ export default class Research_year extends React.Component {
               <b>publisher</b>
             </td>
           </tr>
-          {this.renderItems()}
+          {this.renderValues()}
         </table>
       </div>
     );
