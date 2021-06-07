@@ -1,63 +1,70 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import'bootstrap/dist/js/bootstrap.bundle.min';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 export default class Workshops extends React.Component {
-
   state = {
-    itemList: [
-   
-    ]
+    list: [],
   };
-  
-  classAPI(){
+
+  classAPI() {
     fetch("http://localhost:9000/mainWebsiteAPI/workshop_year3")
-    .then(res => res.json())
-    .then(res=>this.setState({itemList:res}));
+      .then((res) => res.json())
+      .then((res) => this.setState({ list: res }));
   }
 
-  componentWillMount(){
+  componentWillMount() {
     this.classAPI();
   }
-  
-  renderItems() {
-    return this.state.itemList.map(item => (
-     
-        <tr> <td width="20%">{item.faculty_name}</td>
-       <td width="20%">{item.title}</td>
-        <td width="20%">{item.domain}</td>
-        <td width="20%">{item.from_date}</td>
-        <td width="20%">{item.to}</td></tr>
-      
+
+  renderValues() {
+    return this.state.list.map((value) => (
+      <tr>
+        {" "}
+        <td width="20%">{value.faculty_name}</td>
+        <td width="20%">{value.title}</td>
+        <td width="20%">{value.domain}</td>
+        <td width="20%">{value.from_date}</td>
+        <td width="20%">{value.to}</td>
+      </tr>
     ));
   }
 
+  render() {
+    return (
+      <div class="container">
+        <br />
+        <br />
+        <br />
+        <br />
 
-    render() {
-        return (
-          
-          <div class="container">
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+        <div class="section-title" data-aos="fade-up">
+          <h1>Workshop held in 2019</h1>
+          <hr />
+        </div>
 
-            <div class="section-title" data-aos="fade-up" >
-              <h1>Workshop held in 2019</h1>
-              <hr/>
-                        
-            </div>
+        <table class="table table-hover">
+          <tr>
+            <td width="20%">
+              <b>Faculty Name</b>
+            </td>
+            <td width="20%">
+              <b>Title</b>
+            </td>
+            <td width="20%">
+              <b>Domain </b>
+            </td>
+            <td width="20%">
+              <b>Start Date</b>
+            </td>
+            <td width="20%">
+              <b>End Date</b>
+            </td>
+          </tr>
 
-            <table class="table table-hover">
-            <tr><td width="20%"><b>Faculty Name</b></td>
-            <td width="20%"><b>Title</b></td>
-            <td width="20%"><b>Domain </b></td>
-            <td width="20%"><b>Start Date</b></td>
-             <td width="20%"><b>End Date</b></td></tr>
-            
-            {this.renderItems()}
-            </table></div>
-
-        )
-    }
+          {this.renderValues()}
+        </table>
+      </div>
+    );
+  }
 }
