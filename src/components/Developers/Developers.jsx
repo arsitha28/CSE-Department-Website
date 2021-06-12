@@ -170,14 +170,14 @@ export default class Developers extends React.Component {
               >
                 <div class="member">
                   <img
-                    src="assets/images/porfolio-01.jpg"
+                    src="assets/images/harshitha.jpeg"
                     class="img-fluid"
                     alt=""
                   />
                   <div class="member-info">
                     <div class="member-info-content">
-                      <h4>Developer</h4>
-                      <span>Role</span>
+                      <h4>Harshitha Katakam</h4>
+                      <span>Developer</span>
                     </div>
                   </div>
                 </div>
@@ -190,14 +190,14 @@ export default class Developers extends React.Component {
               >
                 <div class="member">
                   <img
-                    src="assets/images/porfolio-01.jpg"
+                    src="assets/images/Harsh.jpeg"
                     class="img-fluid"
                     alt=""
                   />
                   <div class="member-info">
                     <div class="member-info-content">
-                      <h4>Developer</h4>
-                      <span>Role</span>
+                      <h4>Harsh Kumar Lal Das</h4>
+                      <span>Developer</span>
                     </div>
                   </div>
                 </div>
@@ -212,14 +212,14 @@ export default class Developers extends React.Component {
               >
                 <div class="member">
                   <img
-                    src="assets/images/porfolio-01.jpg"
+                    src="assets/images/keerthika.jpeg"
                     class="img-fluid"
                     alt=""
                   />
                   <div class="member-info">
                     <div class="member-info-content">
-                      <h4>Developer</h4>
-                      <span>Role</span>
+                      <h4>Keerthika Pandya</h4>
+                      <span>Developer</span>
                     </div>
                   </div>
                 </div>
@@ -232,14 +232,14 @@ export default class Developers extends React.Component {
               >
                 <div class="member">
                   <img
-                    src="assets/images/porfolio-01.jpg"
+                    src="assets/images/Mohan.jpeg"
                     class="img-fluid"
                     alt=""
                   />
                   <div class="member-info">
                     <div class="member-info-content">
-                      <h4>Developer</h4>
-                      <span>Role</span>
+                      <h4>M Mohan kumar</h4>
+                      <span>Developer</span>
                     </div>
                   </div>
                 </div>
@@ -251,15 +251,11 @@ export default class Developers extends React.Component {
                 data-aos-delay="300"
               >
                 <div class="member">
-                  <img
-                    src="assets/images/porfolio-01.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img src="assets/images/Manu.jpeg" class="img-fluid" alt="" />
                   <div class="member-info">
                     <div class="member-info-content">
-                      <h4>Developer</h4>
-                      <span>Role</span>
+                      <h4>Manu kushaal</h4>
+                      <span>Developer</span>
                     </div>
                   </div>
                 </div>
@@ -271,15 +267,11 @@ export default class Developers extends React.Component {
                 data-aos-delay="400"
               >
                 <div class="member">
-                  <img
-                    src="assets/images/porfolio-01.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img src="assets/images/Rao.jpeg" class="img-fluid" alt="" />
                   <div class="member-info">
                     <div class="member-info-content">
-                      <h4>Developer</h4>
-                      <span>Role</span>
+                      <h4>Temburu Harshitha</h4>
+                      <span>Developer</span>
                     </div>
                   </div>
                 </div>
